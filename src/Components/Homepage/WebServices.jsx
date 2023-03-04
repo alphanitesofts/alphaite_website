@@ -9,18 +9,17 @@ const WebServices = () => {
             <div className="col-md-8 col-lg-6 text-center">
               <div className="section-heading">
                 {/* Heading */}
-                <h2 className="section-title mb-2 text-white">Web Services</h2>
+                <h2 className="section-title mb-2 text-white">Our Services</h2>
                 {/* Subheading */}
                 <p className="mb-5 text-white">
-                  Rappo can be used to create anything from a small marketing
-                  page to a sophisticated website.
+                  .Transform your ideas to great products and services. We
+                  design & build digital experiences that deliver results.
                 </p>
               </div>
             </div>
           </div>{" "}
           {/* / .row */}
           <div className="row">
-            
             <div className="col-lg-4 col-sm-6 col-md-6 mb-30">
               <div className="web-service-block">
                 <i className="ti-desktop" />
@@ -74,10 +73,13 @@ const WebServices = () => {
                 <i className="ti-layers-alt" />
                 <h3>Graphic Design</h3>
                 <p>
-                We offer a comprehensive range of graphic design services to help businesses and individuals create stunning visual content. Our skilled designers are equipped with the latest tools and techniques to deliver high-quality designs..
+                  We offer a comprehensive range of graphic design services to
+                  help businesses and individuals create stunning visual
+                  content. Our skilled designers are equipped with the latest
+                  tools and techniques to deliver high-quality designs..
                 </p>
               </div>
-            </div>         
+            </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="web-service-block">
                 <i className="ti-light-bulb" />

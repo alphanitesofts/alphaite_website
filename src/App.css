@@ -15,7 +15,12 @@
   color: #fff;
 }
 
-
+.btn-social-all{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .btn-social {
   display: none;
@@ -23,8 +28,8 @@
 
 .card:hover .btn-social {
   margin-right: 5px;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +37,7 @@
   border: 1.5px solid black;
   border-radius: 50px;
   transition: .3s;
+  z-index: 2;
 }
 
 .btn-social:hover {
@@ -56,7 +62,6 @@
     opacity: 1;
   }
 }
-
 
 .animate.pop {
   animation-name: animate-pop;

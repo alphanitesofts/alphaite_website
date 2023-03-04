@@ -19,12 +19,10 @@ const Footer = () => {
               <div className="footer-widget">
                 {/* Brand */}
                 <a href="index.html" className="footer-brand text-white">
-                  Rappo
+                  ALphanites
                 </a>
                 <p>
-                  Each theme featured at the Bootstrap marketplace has been
-                  reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit.
+                We are a team of skilled and passionate individuals who specialize in developing high-quality software solutions for businesses of all sizes. With years of experience in the industry, we have a deep understanding of the latest technologies and trends, and we meet needs of our clients.
                 </p>
               </div>
             </div>
@@ -114,14 +112,16 @@ const Footer = () => {
             </div>
           </div>{" "}
           {/* / .row */}
-          <div className="row text-right pt-5">
-            <div className="col-lg-12">
-              <div className="overflow-hidden">
+          <div className="row  pt-5">
+            <div className="col-lg-5 mx-auto">
+              <div className="overflow-hidden text-center">
                 {/* Copyright */}
                 <p className="footer-copy">
-                  Copyright © . Designed &amp; Developed by{" "}
-                  <a className="current-year" href="https://themefisher.com/">
-                    Themefisher
+                  Copyright © Designed &amp; Developed by
+                  <a
+                    className="current-year"
+                  >
+                    &nbsp;Alphanites
                   </a>
                 </p>
               </div>

@@ -828,7 +828,7 @@ const Items = () => {
             <div className="row justify-content-center">
               <div className="col-md-8 col-lg-6 text-center">
                 <div className="section-heading">
-                  <div className="line w-50 mx-auto mb-3"></div>
+                  <div className="line w-50 mx-auto mb-3"/>
                   <h2 className="section-title">Our Portfolio</h2>
                   <p>Our portfolio includes a diverse range of projects, from web and mobile applications to custom software solutions and integrations</p>
                 </div>

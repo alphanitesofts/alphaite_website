@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -11,12 +12,25 @@ const Hero = () => {
               <div className="main-banner">
                 {/* Heading */}
                 <h1 className="display-4 mb-4 font-weight-normal">
-                  {/* Industry Leading Managed Services Solutions */}
-                  Welcome to Alphanites
+                  {/* Welcome to Alphanites */}
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "Welcome to Alphanites",
+                        "Welcome to Alphanites",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
                 </h1>
                 {/* Subheading */}
                 <p className="lead mb-4">
-                Transform your ideas to great products and services. We design & build digital experiences that deliver results. As a company, we are committed to providing our clients with the most cost-effective, user-friendly, and creative technological solutions possible.
+                  Transform your ideas to great products and services. We design
+                  & build digital experiences that deliver results. As a
+                  company, we are committed to providing our clients with the
+                  most cost-effective, user-friendly, and creative technological
+                  solutions possible.
                 </p>
                 {/* Button */}
                 <p className="mb-0">

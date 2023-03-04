@@ -9,6 +9,7 @@ const Pricing = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
+            <div className="line w-50 mx-auto mb-3"/>
               <div className="section-heading">
                 {/* Heading */}
                 <h2 className="section-title">Affordable Price Plan</h2>
