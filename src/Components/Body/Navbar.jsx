@@ -31,10 +31,19 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              
               <li className="nav-item ">
-                <a href="#service" className="nav-link js-scroll-trigger">
+                <a href="#about-us" className="nav-link js-scroll-trigger">
+                  About
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a href="#our-services" className="nav-link js-scroll-trigger">
                   Services
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a href="#our-portfolio" className="nav-link js-scroll-trigger">
+                  Projects
                 </a>
               </li>
               <li className="nav-item ">
@@ -42,16 +51,8 @@ const Navbar = () => {
                   Pricing
                 </a>
               </li>
-              <li className="nav-item ">
-                <a href="#projects-wrap" className="nav-link js-scroll-trigger">
-                  About
-                </a>
-              </li>
-              <li className="nav-item ">
-                <a href="#work" className="nav-link js-scroll-trigger">
-                  Projects
-                </a>
-              </li>
+              
+              
               <li className="nav-item ">
                 <Link
                   to="ContactUs"

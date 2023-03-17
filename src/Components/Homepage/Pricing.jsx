@@ -9,13 +9,12 @@ const Pricing = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
-            <div className="line w-50 mx-auto mb-3"/>
+              <div className="line w-50 mx-auto mb-3" />
               <div className="section-heading">
-                {/* Heading */}
                 <h2 className="section-title">Affordable Price Plan</h2>
-                {/* Subheading */}
                 <p>
-                We believe in providing our clients with transparent and competitive pricing for our services
+                  We believe in providing our clients with transparent and
+                  competitive pricing for our services
                 </p>
               </div>
             </div>
@@ -27,7 +26,7 @@ const Pricing = () => {
                 <h3>Basic Plan</h3>
                 <div className="price-block">
                   <h2>
-                    <small>$</small>440
+                    <small>$</small>720
                   </h2>
                   <h3
                     style={{ fontSize: "12px" }}
@@ -39,17 +38,31 @@ const Pricing = () => {
                 <ul className="price-features list-unstyled">
                   <li>2 Operating systems</li>
                   <li>App Submission</li>
+                  <li>App Icon</li>
+                  <li>API Integration</li>
+                  <li>Splash Screen</li>
                   <li>
-                    <s>App Icon</s>
+                    <s>Push Notifications</s>
+                  </li>
+                  <li>
+                    <s>Google Ads</s>
                   </li>
                   <li>
                     <s>Include Source Code</s>
                   </li>
                   <li>
-                    <s>Splash Screen</s>
+                    <s>Ad Network Integration</s>
+                  </li>
+
+                  <li>
+                    <s>3rd Party Integration</s>
+                  </li>
+
+                  <li>
+                    <s>FireBase Integration</s>
                   </li>
                   <li>
-                    <s>Ad Network Integration</s>
+                    <s>OTP Integration</s>
                   </li>
                 </ul>
                 <Link
@@ -69,7 +82,7 @@ const Pricing = () => {
                 <h3>Business Plan</h3>
                 <div className="price-block">
                   <h2>
-                    <small>$</small>860
+                    <small>$</small>1540
                   </h2>
                   <h3
                     style={{ fontSize: "12px" }}
@@ -82,12 +95,24 @@ const Pricing = () => {
                   <li>2 Operating systems</li>
                   <li>App Submission</li>
                   <li>App Icon</li>
+                  <li>API Integration</li>
+                  <li>Splash Screen</li>
+                  <li>Push Notifications</li>
+                  <li>Google Ads</li>
                   <li>Include Source Code</li>
                   <li>
-                    <s>Splash Screen</s>
+                    <s>Ad Network Integration</s>
+                  </li>
+
+                  <li>
+                    <s>3rd Party Integration</s>
+                  </li>
+
+                  <li>
+                    <s>FireBase Integration</s>
                   </li>
                   <li>
-                    <s>Ad Network Integration</s>
+                    <s>OTP Integration</s>
                   </li>
                 </ul>
                 <Link
@@ -108,7 +133,7 @@ const Pricing = () => {
                 <h3>Premium Plan</h3>
                 <div className="price-block">
                   <h2>
-                    <small>$</small>1295
+                    <small>$</small>2450
                   </h2>
                   <h3
                     style={{ fontSize: "12px" }}
@@ -121,9 +146,17 @@ const Pricing = () => {
                   <li>2 Operating systems</li>
                   <li>App Submission</li>
                   <li>App Icon</li>
+                  <li>API Integration</li>
                   <li>Splash Screen</li>
-                  <li>Ad Network Integration</li>
+                  <li>Push Notifications</li>
+                  <li>Google Ads</li>
                   <li>Include Source Code</li>
+                  <li>Ad Network Integration</li>
+
+                  <li>3rd Party Integration</li>
+
+                  <li>FireBase Integration</li>
+                  <li>OTP Integration</li>
                 </ul>
                 <Link
                   to="/ContactUs"

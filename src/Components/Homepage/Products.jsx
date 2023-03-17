@@ -3,7 +3,7 @@ import React from "react";
 const Products = () => {
   return (
     <div>
-      <section className="section" id="projects-wrap">
+      <section className="section" id="about-us">
         <div className="overlay" />
         <div className="container">
           <div className="row">

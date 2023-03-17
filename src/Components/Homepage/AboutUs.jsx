@@ -26,13 +26,12 @@ const AboutUs = () => {
                   <div className="test-inner ">
                     <div className="test-author-thumb d-flex">
                       <img
-                        src="images/client/test-1.jpg"
+                        src="images/client/dispatch.jpg"
                         alt="Testimonial author"
                         className="img-fluid"
                       />
                       <div className="test-author-info">
-                        <h4>Will Barrow</h4>
-                        <h6>Sunrise Paradise Hotel</h6>
+                        <h4>Henry Kingston</h4>
                       </div>
                     </div>
                     "I had the pleasure of working with the team at this
@@ -47,13 +46,12 @@ const AboutUs = () => {
                   <div className="test-inner ">
                     <div className="test-author-thumb d-flex">
                       <img
-                        src="images/client/test-2.jpg"
+                        src="images/client/testimonial-3.jpg"
                         alt="Testimonial author"
                         className="img-fluid"
                       />
                       <div className="test-author-info">
-                        <h4>Will Barrow</h4>
-                        <h6>Sunrise Paradise Hotel</h6>
+                        <h4>Shawn Smith</h4>
                       </div>
                     </div>
                     "The software house exceeded my expectations in terms of the
@@ -75,8 +73,7 @@ const AboutUs = () => {
                         className="img-fluid"
                       />
                       <div className="test-author-info">
-                        <h4>Will Barrow</h4>
-                        <h6>Sunrise Paradise Hotel</h6>
+                        <h4>Emiliano Jr.</h4>
                       </div>
                     </div>
                     "I highly recommend this software house for any project
@@ -90,13 +87,12 @@ const AboutUs = () => {
                   <div className="test-inner ">
                     <div className="test-author-thumb d-flex">
                       <img
-                        src="images/client/test-4.jpg"
+                        src="images/client/testimonial-1.jpg"
                         alt="Testimonial author"
                         className="img-fluid"
                       />
                       <div className="test-author-info">
-                        <h4>Will Barrow</h4>
-                        <h6>Sunrise Paradise Hotel</h6>
+                        <h4>Ava Adams</h4>
                       </div>
                     </div>
                     "I was impressed by the level of transparency and
@@ -112,13 +108,12 @@ const AboutUs = () => {
                   <div className="test-inner">
                     <div className="test-author-thumb d-flex">
                       <img
-                        src="images/client/test-5.jpg"
+                        src="images/client/testimonial.jpg"
                         alt="Testimonial author"
                         className="img-fluid"
                       />
                       <div className="test-author-info">
-                        <h4>Will Barrow</h4>
-                        <h6>Sunrise Paradise Hotel</h6>
+                        <h4>Ömar Miraç</h4>
                       </div>
                     </div>
                     "The software house's attention to detail and commitment to
@@ -138,8 +133,7 @@ const AboutUs = () => {
                         className="img-fluid"
                       />
                       <div className="test-author-info">
-                        <h4>Will Barrow</h4>
-                        <h6>Sunrise Paradise Hotel</h6>
+                        <h4>Karl Walker</h4>
                       </div>
                     </div>
                     "I have worked with a number of software development teams

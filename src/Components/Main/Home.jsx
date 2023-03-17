@@ -6,27 +6,25 @@ import WebServices from "../Homepage/WebServices";
 import Pricing from "../Homepage/Pricing";
 import Products from "../Homepage/Products";
 import AboutUs from "../Homepage/AboutUs";
-import News from "../Homepage/News";
-import Testimonial from '../Homepage/Testimonial'
-import WorkingProcess from '../Homepage/WorkingProcess'
-import Deals from '../Homepage/Deals'
+import Testimonial from "../Homepage/Testimonial";
 import Team from "../Homepage/Team";
+import ContactUs from "../Homepage/ContactUs";
+import Navbar from "../Body/Navbar";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Hero />
       <Testimonial />
       <Services />
-      <Items />
-      <WorkingProcess />
-      <WebServices />
-      <Pricing />
       <Products />
-      {/* <Deals/> */}
+      <WebServices />
+      <Items />
+      <Pricing />
+      <Team />
       <AboutUs />
-      {/* <News /> */}
-      <Team/>
+      <ContactUs />
     </div>
   );
 };

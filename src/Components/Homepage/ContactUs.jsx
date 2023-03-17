@@ -1,132 +1,8 @@
-import React from "react";
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { Link } from "react-router-dom";
-import Logo from "../../portfolio/Logo.png";
+import React from 'react'
 
-const Contact = () => {
-  const location = useLocation();
-  const { subject } = location.state;
-  const { message } = location.state;
-
-  var mybutton = document.getElementById("myBtn");
-  window.onscroll = function () {
-    scrollFunction();
-  };
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 400 ||
-      document.documentElement.scrollTop > 400
-    ) {
-      mybutton = "block";
-    } else {
-      mybutton = "none";
-    }
-  }
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  useEffect(() => {
-    topFunction();
-  }, []);
-
+const ContactUs = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
-        <div className="container">
-          <a className="navbar-brand">
-            <img src={Logo} style={{ height: "40px" }} alt="" />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="fa fa-bars" />
-          </button>
-          <div
-            className="collapse navbar-collapse has-dropdown"
-            id="navbarCollapse"
-          >
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item ">
-                <Link to="/" className="nav-link js-scroll-trigger">
-                  Home
-                </Link>
-              </li>
-
-              <li className="nav-item ">
-                <Link
-                  to="/ContactUs"
-                  state={{
-                    subject: "Premium",
-                    message:
-                      "Describe the requirements required for your project ...",
-                  }}
-                  className="nav-link"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div>
-        <section className="page-banner-area page-contact">
-          <div className="overlay" />
-          {/* Content */}
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-12 col-12 text-center">
-                <div className="page-banner-content">
-                  <h1 className="display-4 font-weight-bold mt-5">
-                    Got a question?
-                  </h1>
-                  <p>We'd love to talk about how we can help you.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact-info">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-4 col-sm-6 col-md-6">
-                <div className="contact-info-block text-center">
-                  <i className="pe-7s-map-marker" />
-                  <h4>Address</h4>
-                  <p className="lead">
-                    Office#28-29, Heaven Mall Zarrar Shaheed Road, Al-Faisal
-                    Town, Lahore Punjab Pakistan
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-md-6">
-                <div className="contact-info-block text-center">
-                  <i className="pe-7s-mail" />
-                  <h4>Email</h4>
-                  <p className="lead">contact@alphanitesofts.com</p>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-md-6">
-                <div className="contact-info-block text-center">
-                  <i className="pe-7s-phone" />
-                  <h4>Phone Number</h4>
-                  <p className="lead">+923104452269</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="section" id="contact">
           <div className="container">
             <div className="row mb-4">
@@ -246,7 +122,7 @@ const Contact = () => {
                         </label>
                         <div className="input-group ">
                           <input
-                            defaultValue={subject}
+                            defaultValue={''}
                             className="form-control"
                             id="phone"
                             name="phone"
@@ -289,7 +165,7 @@ const Contact = () => {
                         id="message"
                         required
                         placeholder="Hi there, I would like to ..."
-                        defaultValue={message}
+                        defaultValue={''}
                       />
                     </div>
                   </div>
@@ -332,9 +208,8 @@ const Contact = () => {
             </div>
           </div>
         </section>
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default ContactUs

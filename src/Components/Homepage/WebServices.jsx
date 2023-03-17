@@ -3,22 +3,20 @@ import React from "react";
 const WebServices = () => {
   return (
     <div>
-      <section className="section" id="services-2">
+      <section className="section" id="our-services">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 col-lg-6 text-center">
               <div className="section-heading">
-                {/* Heading */}
                 <h2 className="section-title mb-2 text-white">Our Services</h2>
-                {/* Subheading */}
                 <p className="mb-5 text-white">
                   .Transform your ideas to great products and services. We
                   design & build digital experiences that deliver results.
                 </p>
               </div>
             </div>
-          </div>{" "}
-          {/* / .row */}
+          </div>
+
           <div className="row">
             <div className="col-lg-4 col-sm-6 col-md-6 mb-30">
               <div className="web-service-block">
@@ -61,7 +59,7 @@ const WebServices = () => {
                 <i className="ti-settings" />
                 <h3>Web Application</h3>
                 <p>
-                  US-Softs offers wide-ranging web services. We integrate
+                  Alphanite offers wide-ranging web services. We integrate
                   advanced web technologies for seamless and interactive web
                   Applications. We carry more than just coding skills. Our
                   experience make us stand out from other web developmnent
@@ -83,7 +81,7 @@ const WebServices = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="web-service-block">
                 <i className="ti-light-bulb" />
-                <h3>3d Animation</h3>
+                <h3>2D / 3D Animation</h3>
                 <p>
                   The possibilities for 3D animation are endless, We are
                   specialized in creating three-dimensional digital content that

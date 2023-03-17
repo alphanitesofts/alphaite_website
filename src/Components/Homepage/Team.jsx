@@ -11,7 +11,7 @@ import waleed from "../../portfolio/waleed.jpg";
 
 const Team = () => {
   return (
-    <div className="">
+    <div>
       <div className="row justify-content-center mt-5">
         <div className="col-md-8 col-lg-6 text-center">
           <div className="line w-50 mx-auto mb-3" />
@@ -24,9 +24,9 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row ">
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={usama} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Usama Abdullah</h5>
@@ -57,7 +57,7 @@ const Team = () => {
           </div>
         </div>
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={sarib} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Sarib Arshad Khan</h5>
@@ -89,7 +89,7 @@ const Team = () => {
           </div>
         </div>
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={iqra} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Iqra Rasheed</h5>
@@ -114,7 +114,7 @@ const Team = () => {
           </div>
         </div>
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={bilal} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Bilal Shuja</h5>
@@ -156,7 +156,7 @@ const Team = () => {
 
       <div className="row" style={{ marginBottom: "80px" }}>
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={waleed} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Waleed Ilyas Khan</h5>
@@ -189,7 +189,7 @@ const Team = () => {
         </div>
 
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={ayesha} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Ayesha Bukhari</h5>
@@ -208,7 +208,7 @@ const Team = () => {
         </div>
 
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={affan} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Affan Shiekh</h5>
@@ -234,7 +234,7 @@ const Team = () => {
         </div>
 
         <div className="col-lg-3">
-          <div className="card m-3" style={{ width: "18rem" }}>
+          <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
             <img src={faraz} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Faraz Mahmood</h5>

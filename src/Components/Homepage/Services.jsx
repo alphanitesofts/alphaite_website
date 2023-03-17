@@ -46,20 +46,23 @@ const Services = () => {
                             <div className="service-inner-content media-body">
                               <h4>Web Development</h4>
                               <p>
-                              Build the product you need on time with an experienced team
+                                Build the product you need on time with an
+                                experienced team
                               </p>
                             </div>
                           </div>
                         </div>
+
                         <div className="col-lg-6">
                           <div className="service-block media">
                             <div className="service-icon">
-                              <i className="ti-layers-alt" />
+                              <i className="ti-mobile" />
                             </div>
                             <div className="service-inner-content media-body">
-                              <h4>Graphic Design</h4>
+                              <h4>App Development</h4>
                               <p>
-                              We offer a wide range of graphic design services to help create stunning visual content.
+                                Built your very own applications with robust
+                                backends
                               </p>
                             </div>
                           </div>
@@ -73,16 +76,18 @@ const Services = () => {
                         <div className="col-lg-6">
                           <div className="service-block media">
                             <div className="service-icon">
-                              <i className="ti-mobile" />
+                              <i className="ti-layers-alt" />
                             </div>
                             <div className="service-inner-content media-body">
-                              <h4>App Development</h4>
+                              <h4>Graphic Design</h4>
                               <p>
-                              Built your very own applications with robust backends
+                                We offer a wide range of graphic design services
+                                to help create stunning visual content.
                               </p>
                             </div>
                           </div>
                         </div>
+
                         <div className="col-lg-6">
                           <div className="service-block media">
                             <div className="service-icon">
@@ -91,7 +96,8 @@ const Services = () => {
                             <div className="service-inner-content media-body">
                               <h4>Digital Marketing</h4>
                               <p>
-                              Promotion of brands to connect with potential customers using the internet
+                                Promotion of brands to connect with potential
+                                customers using the internet
                               </p>
                             </div>
                           </div>

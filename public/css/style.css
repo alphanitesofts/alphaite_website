@@ -922,13 +922,13 @@ h5.subtitle {
 /*----------------------
  WEB SERVICES
 -----------------------*/
-#services-2 {
+#our-services {
   position: relative;
   background: url("../images/bg/6.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
 }
 
-#services-2:before {
+#our-services:before {
   position: absolute;
   content: "";
   left: 0px;
@@ -1113,7 +1113,7 @@ h5.subtitle {
 }
 
 .work-block:hover .overlay-content-block {
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: visible;
 }
 

@@ -42,8 +42,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image11} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand Login</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -55,8 +55,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image1} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Make a Cake</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -68,8 +68,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image12} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand Rating</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -81,8 +81,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image2} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Real Estate</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -94,8 +94,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image13} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand Category</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -107,7 +107,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image14} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Essay on Demand Customer feedback</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -120,8 +120,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image15} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand Client Review</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -133,8 +133,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image16} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand FAQs</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -146,8 +146,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image3} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Let's Love Quran</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -159,7 +159,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image17} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Essay on Demand Blogs</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -172,8 +172,9 @@ const Items = () => {
             <div className="work-block">
               <img src={image4} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>
+Customer Support App</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -185,7 +186,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image18} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Essay on Demand Services</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -198,8 +199,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image19} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand Authors</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -211,8 +212,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image20} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Essay on Demand Author's Rating</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -224,8 +225,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image5} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Mobile Safe</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -237,8 +238,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image6} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Make a Cake</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -250,7 +251,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image21} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Essay On Demand Contact Us</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -263,7 +264,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image22} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>GMS Revenue Sheet</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -276,8 +277,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image23} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Gym Panel</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -289,8 +290,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image7} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Tourism</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -302,8 +303,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image24} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>GMS Login</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -315,7 +316,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image8} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Real Time Location</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -328,7 +329,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image25} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Gym Freak</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -341,8 +342,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image27} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>GMS Exspense Sheet</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -354,8 +355,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image28} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Khan Burger Login</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -367,7 +368,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image29} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Gym Freak </h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -380,8 +381,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image9} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Cash Cab </h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -393,8 +394,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image31} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Khan Burger Dashboard</h4>
+                <p>Web Application</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -406,8 +407,8 @@ const Items = () => {
             <div className="work-block">
               <img src={image10} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
-                <p>Web Development</p>
+                <h4>Ramzan Electronics</h4>
+                <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
                 </a>
@@ -419,7 +420,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image32} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Fahad's Portfolio</h4>
                 <p>Web Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -438,8 +439,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image11} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>Essay on Demand Login</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -451,8 +452,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image12} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>Essay on Demand Dashboard</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -464,8 +465,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image13} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>Essay on Demand Category</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -477,8 +478,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image14} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>Essay on Demand Customer feedback</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -490,7 +491,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image15} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand Client Review</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -503,7 +504,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image16} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand FAQs</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -516,7 +517,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image17} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand Blogs</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -529,7 +530,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image18} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand Services</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -542,7 +543,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image19} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand Authors</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -555,7 +556,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image20} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand Author's Rating</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -568,7 +569,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image21} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Essay on Demand Contact Us</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -581,8 +582,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image22} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>Gym Panel</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -594,8 +595,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image24} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>GMS Login</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -607,7 +608,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image25} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Gym Freak</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -620,8 +621,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image27} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>GMS Panel</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -633,8 +634,8 @@ const Items = () => {
               <div className="work-block">
                 <img src={image28} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
-                  <p>Web Development</p>
+                  <h4>Khan Burgers</h4>
+                  <p>Web Application</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
@@ -646,7 +647,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image29} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>GYM Freaks Trainer</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -659,7 +660,7 @@ const Items = () => {
               <div className="work-block">
                 <img src={image31} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Khan Burger Admin Panel</h4>
                   <p>Web Development</p>
                   <a href="">
                     <i className="fa-solid fa-chevron-right" />
@@ -672,9 +673,9 @@ const Items = () => {
               <div className="work-block">
                 <img src={image32} width={350} height={250} alt="work-img" />
                 <div className="overlay-content-block">
-                  <h4>Probiz portfolio template</h4>
+                  <h4>Fahad's Portfolio</h4>
                   <p>Web Development</p>
-                  <a href="">
+                  <a href="https://fahadarif.netlify.app/" target="_blank">
                     <i className="fa-solid fa-chevron-right" />
                   </a>
                 </div>
@@ -690,7 +691,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image1} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Make a Cake</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -703,7 +704,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image2} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Real Estate App</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -716,7 +717,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image3} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Let's Love Quran</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -729,7 +730,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image4} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Customer Support App</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -742,7 +743,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image5} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Mobile Safe</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -755,7 +756,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image6} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Bakers App</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -768,7 +769,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image7} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Tousrism</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -781,7 +782,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image8} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Real Time Location</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -794,7 +795,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image9} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Cash Cab</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -807,7 +808,7 @@ const Items = () => {
             <div className="work-block">
               <img src={image10} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
-                <h4>Probiz portfolio template</h4>
+                <h4>Ramzan Electronics</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -823,7 +824,7 @@ const Items = () => {
   return (
     <div>
       <div>
-        <section id="work" className="section">
+        <section id="our-portfolio" className="section">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-8 col-lg-6 text-center">
