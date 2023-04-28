@@ -10,7 +10,7 @@ const WebServices = () => {
               <div className="section-heading">
                 <h2 className="section-title mb-2 text-white">Our Services</h2>
                 <p className="mb-5 text-white">
-                  .Transform your ideas to great products and services. We
+                  Transform your ideas to great products and services. We
                   design & build digital experiences that deliver results.
                 </p>
               </div>

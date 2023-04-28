@@ -12,12 +12,11 @@ const Hero = () => {
               <div className="main-banner">
                 {/* Heading */}
                 <h1 className="display-4 mb-4 font-weight-normal">
-                  {/* Welcome to Alphanites */}
                   <Typewriter
                     options={{
                       strings: [
-                        "Welcome to Alphanites",
-                        "Welcome to Alphanites",
+                        "Welcome to Alphanite",
+                        "Welcome to Alphanite",
                       ],
                       autoStart: true,
                       loop: true,
