@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+
 import affan from "../../portfolio/affan.jpg";
 import ayesha from "../../portfolio/ayeshaBukhari.jpg";
 import bilal from "../../portfolio/BilalShuja.jpg";
@@ -31,27 +33,13 @@ const Team = () => {
             <div className="card-body">
               <h5 className="card-title">Usama Abdullah</h5>
               <p className="card-text">Director</p>
-              <div className="d-flex justify-content-center btn-social-all">
-                <a
-                  className="animate pop delay-1 btn-social"
-                  href="https://www.facebook.com/usama425"
-                  target="_blank"
+              <div className="btn-social-all ">
+                <Link to='/MemberProfile'
+                  className="animate pop delay-1 btn-social "
+                  style={{ marginLeft: "200px" }}
                 >
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a
-                  className="animate pop dealy-2 btn-social"
-                  href="https://www.instagram.com/_usama.abdullah/"
-                  target="_blank"
-                >
-                  <i className="fab fa-instagram" />
-                </a>
-                <a
-                  className="animate pop delay-3 btn-social"
-                  href="https://www.linkedin.com/in/usama-abdullah-412164188/"
-                >
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                  <i className="fa-solid fa-chevron-right" />
+                </Link>
               </div>
             </div>
           </div>

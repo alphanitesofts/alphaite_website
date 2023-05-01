@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Projectmodal from "../Modals/Projectmodal";
+
 import image1 from "../../portfolio/portfolio-image-1.jpg";
 import image2 from "../../portfolio/portfolio-image-2.jpg";
 import image3 from "../../portfolio/portfolio-image-3.jpg";
@@ -33,6 +35,12 @@ import image32 from "../../portfolio/alphaWeb43.png";
 
 const Items = () => {
   const [index, setIndex] = useState(0);
+  const [shouldShow, setShouldShow] = useState(false);
+
+  function oncloseModal() {
+    setShouldShow((prev) => !prev);
+  }
+
 
   const showProjects = () => {
     if (index === 0) {
@@ -44,8 +52,8 @@ const Items = () => {
               <div className="overlay-content-block">
                 <h4>Essay on Demand Login</h4>
                 <p>Web Application</p>
-                <a href="">
-                  <i className="fa-solid fa-chevron-right" />
+                <a href="" >
+                  <i className="fa-solid fa-chevron-right text-white" />
                 </a>
               </div>
             </div>
@@ -57,8 +65,12 @@ const Items = () => {
               <div className="overlay-content-block">
                 <h4>Make a Cake</h4>
                 <p>App Development</p>
-                <a href="">
-                  <i className="fa-solid fa-chevron-right" />
+                <a
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
+                    oncloseModal();
+                  }}>
+                  <i className="fa-solid fa-chevron-right text-white" />
                 </a>
               </div>
             </div>
@@ -173,7 +185,7 @@ const Items = () => {
               <img src={image4} width={350} height={250} alt="work-img" />
               <div className="overlay-content-block">
                 <h4>
-Customer Support App</h4>
+                  Customer Support App</h4>
                 <p>App Development</p>
                 <a href="">
                   <i className="fa-solid fa-chevron-right" />
@@ -823,13 +835,17 @@ Customer Support App</h4>
 
   return (
     <div>
+      <Projectmodal
+        showModal={shouldShow}
+        closeModal={oncloseModal}
+      />
       <div>
         <section id="our-portfolio" className="section">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-8 col-lg-6 text-center">
                 <div className="section-heading">
-                  <div className="line w-50 mx-auto mb-3"/>
+                  <div className="line w-50 mx-auto mb-3" />
                   <h2 className="section-title">Our Portfolio</h2>
                   <p>Our portfolio includes a diverse range of projects, from web and mobile applications to custom software solutions and integrations</p>
                 </div>
@@ -847,7 +863,6 @@ Customer Support App</h4>
                 onClick={() => setIndex(0)}
                 style={{ borderRadius: "50px" }}
               >
-                {" "}
                 All
               </button>
               <button

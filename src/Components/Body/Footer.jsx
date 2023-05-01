@@ -22,7 +22,7 @@ const Footer = () => {
                   ALphanites
                 </a>
                 <p>
-                We are a team of skilled and passionate individuals who specialize in developing high-quality software solutions for businesses of all sizes. With years of experience in the industry, we have a deep understanding of the latest technologies and trends, and we meet needs of our clients.
+                  We are a team of skilled and passionate individuals who specialize in developing high-quality software solutions for businesses of all sizes. With years of experience in the industry, we have a deep understanding of the latest technologies and trends, and we meet needs of our clients.
                 </p>
               </div>
             </div>
@@ -135,6 +135,7 @@ const Footer = () => {
       <a
         id="scroll-to-top"
         className="scroll-to-top js-scroll-trigger"
+        style={{ textDecoration: 'none' }}
         onClick={scrollToTop}
       >
         <i className="fa fa-angle-up" />
