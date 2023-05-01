@@ -28,6 +28,7 @@
 }
 
 .btn-social-all {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,4 +96,34 @@
 
 .delay-1 {
   animation-delay: 0.3s;
+}
+
+/* memberProfile */
+
+.bg-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  height: 124px;
+  width: 124px;
+  border: 1px solid #f9f9f9;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.main-info-card {
+  position: relative;
+  z-index: 1;
+  margin-left: 50px;
+  border-radius: 3px;
+  bottom: 50px;
 }
