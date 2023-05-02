@@ -28,11 +28,9 @@ const Projectmodal = ({ showModal, closeModal }) => {
                             }}>X</a>
                         </div>
                         <div className="line w-50 mb-3" />
+                        <h4 className="mb-0 mt-0">Washroo</h4>
+                        <p className="mt-0 mb-2"><b>Web Application</b></p>
                         <p>Libero voluptatum, ut non saepe eos quibusdam vero perspiciatis vel nulla nisi cumque perferendis voluptate dolores dignissimos eligendi laudantium fuga quam nemo odit. Blanditiis ad labore provident, ipsa animi enim tempora exercitationem quod odit dolores! Velit aliquid mollitia magnam at consequuntur tenetur.</p>
-                        {/* <div className="card">
-                            <div className="card-body  shadow bg-body rounded" style={{ textAlign: 'justify' }}>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </Modal>

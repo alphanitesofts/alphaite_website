@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Logo from "../../portfolio/Logo.png";
 import bg from '../Sourcefiles/Images/backgroundimage.png'
 import profile from '../Sourcefiles/Images/profileImage.png'
+import faraz from '../Sourcefiles/Images/WhatsApp Image 2022-07-31 at 9.12.57 PM.jpeg'
 
 const MemberProfile = () => {
     return (
@@ -64,8 +65,8 @@ const MemberProfile = () => {
             <div>
                 <div className='row'>
                     <div className='col-lg-4'>
-                        <div className='card main-info-card'>
-                            <div className='card-body'>
+                        <div className=' main-info-card'>
+                            <div className='cardx-body'>
                                 <div className='profile-card'>
                                     <img src={profile} className='profile-img' alt="" />
                                 </div>
@@ -113,7 +114,7 @@ const MemberProfile = () => {
                                                     <i className='fa-brands float-right fa-2x fa-chrome mt-2' />
                                                 </div>
                                                 <div className='col-lg-7'>
-                                                    GamePack Gamming, Outsourcing Pakistan
+                                                    GamePack Gaming, Outsourcing Pakistan
                                                 </div>
                                                 <div className='col-lg-3'>
                                                     <p className='mt-2'> <i className='fa-solid fa-plus' /> <span style={{ fontSize: '10px' }}>Follow us</span></p>
@@ -125,10 +126,19 @@ const MemberProfile = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-8'>
-                        <div className='d-flex mt-3'>
-                            <button className='btn btn-outline-primary btn-circled me-1'>Work</button>
-                            <button className='btn btn-outline-secondary btn-circled ms-1' style={{ border: '1px solid #6c757d' }}>Appreciation</button>
+                    <div className='col-lg-8 '>
+                        <div className='d-flex mt-3 ms-3'>
+                            <button className='btn btn-outline-primary btn-sm btn-circled me-1 ps-4 pe-4 rounded-pill'>Work</button>
+                            <button className='btn btn-outline-secondary btn-sm btn-circled ms-1 ps-4 pe-4 rounded-pill' style={{ border: '1px solid #6c757d' }}>Appreciation</button>
+                        </div>
+
+                        <div className='row m-1 mt-2'>
+                            <div className='col-lg-6'>
+                                <img src={faraz} className='img-fluid' alt="" />
+                            </div>
+                            <div className='col-lg-6'>
+                                <img src={faraz} className='img-fluid' alt="" />
+                            </div>
                         </div>
 
 
