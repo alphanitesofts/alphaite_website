@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from "../../portfolio/Logo.png";
 import bg from '../Sourcefiles/Images/backgroundimage.png'
@@ -6,6 +6,30 @@ import profile from '../Sourcefiles/Images/profileImage.png'
 import faraz from '../Sourcefiles/Images/WhatsApp Image 2022-07-31 at 9.12.57 PM.jpeg'
 
 const MemberProfile = () => {
+
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function () {
+        scrollFunction();
+    };
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 400 ||
+            document.documentElement.scrollTop > 400
+        ) {
+            mybutton = "block";
+        } else {
+            mybutton = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    useEffect(() => {
+        topFunction();
+    }, []);
+
     return (
         <div>
             {/* navbar */}
