@@ -32,9 +32,11 @@ import image28 from "../../portfolio/alphaWeb35.png";
 import image29 from "../../portfolio/alphaWeb37.png";
 import image31 from "../../portfolio/alphaWeb41.png";
 import image32 from "../../portfolio/alphaWeb43.png";
+import products from "../Sourcefiles/Portfolioprojects";
 
 const Items = () => {
   const [index, setIndex] = useState(0);
+  const [selectedItem, setSelectedItem] = useState({});
   const [shouldShow, setShouldShow] = useState(false);
 
   function oncloseModal() {
@@ -833,11 +835,13 @@ const Items = () => {
     }
   };
 
+
   return (
     <div>
       <Projectmodal
         showModal={shouldShow}
         closeModal={oncloseModal}
+        selectedItem={selectedItem}
       />
       <div>
         <section id="our-portfolio" className="section">
@@ -900,7 +904,31 @@ const Items = () => {
               </button> */}
             </div>
 
-            <div className="row">{showProjects()}</div>
+            <div className="row">
+              {
+                products.map((items) => {
+                  return (
+                    <>
+                      <div className="col-lg-4 col-md-6 p-0">
+                        <div className="work-block">
+                          <img src={items.image_url} width={350} height={250} alt="work-img" />
+                          <div className="overlay-content-block">
+                            <h4>{items.name}</h4>
+                            <p>{items.type}</p>
+                            <a style={{ cursor: 'pointer' }} onClick={() => {
+                              setSelectedItem(items);
+                              oncloseModal();
+                            }}>
+                              <i className="fa-solid fa-chevron-right text-white" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )
+                })
+              }
+            </div>
           </div>
         </section>
       </div>
