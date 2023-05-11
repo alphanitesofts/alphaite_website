@@ -1,19 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom'
-
-import affan from "../../portfolio/affan.jpg";
-import ayesha from "../../portfolio/ayeshaBukhari.jpg";
-import bilal from "../../portfolio/BilalShuja.jpg";
-import daniyal from "../../portfolio/Daniyal.jpg";
-import faraz from "../../portfolio/Faraz.jpg";
-import iqra from "../../portfolio/IqraRasheed.jpg";
-import sarib from "../../portfolio/Sarib.jpg";
-import usama from "../../portfolio/usama.jpg";
-import waleed from "../../portfolio/waleed.jpg";
-import nauman from "../../portfolio/noman.jpg";
 import teammembers from "../Sourcefiles/TeamMembers";
+import { useNavigate } from "react-router-dom";
+import MemberProfile from "../Profiles/MemberProfile";
 
 const Team = () => {
+  const navigate = useNavigate();
+  const [selectedItem, setSelectedItem] = useState('')
   return (
     <div>
       <div className="row justify-content-center mt-5">
@@ -40,7 +33,7 @@ const Team = () => {
                       <h5 className="card-title">{items.name}</h5>
                       <p className="card-text">{items.designation}</p>
                       <div className="btn-social-all ">
-                        <Link to='/MemberProfile'
+                        <Link to={`/MemberProfile/${items.id}`}
                           className="animate pop delay-1 btn-social "
                           style={{ marginLeft: "200px" }}
                         >

@@ -36,7 +36,7 @@ const products = [
     image_url: image11,
     name: "Essay on Demand Login",
     type: "Web Application",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     image_url: image1,
     name: "Make a Cake",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -52,7 +52,7 @@ const products = [
     image_url: image12,
     name: "Essay on Demand Rating",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -60,7 +60,7 @@ const products = [
     image_url: image2,
     name: "Real Estate",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -68,7 +68,7 @@ const products = [
     image_url: image13,
     name: "Essay on Demand Category",
     type: "App Application",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -76,7 +76,7 @@ const products = [
     image_url: image14,
     name: "Essay on Demand Customer feedback",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -84,7 +84,7 @@ const products = [
     image_url: image15,
     name: "Essay on Demand Client Review",
     type: "Web Application",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -92,7 +92,7 @@ const products = [
     image_url: image16,
     name: "Essay on Demand FAQs",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -100,7 +100,7 @@ const products = [
     image_url: image3,
     name: "Let's Love Quran",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -108,7 +108,7 @@ const products = [
     image_url: image17,
     name: "Essay on Demand Blogs",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -116,7 +116,7 @@ const products = [
     image_url: image4,
     name: "Customer Support App",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -124,7 +124,7 @@ const products = [
     image_url: image18,
     name: "Essay on Demand Services",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -132,7 +132,7 @@ const products = [
     image_url: image19,
     name: "Essay on Demand Authors",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -140,7 +140,7 @@ const products = [
     image_url: image20,
     name: "Essay on Demand Author's Rating",
     type: "Web Application",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -148,7 +148,7 @@ const products = [
     image_url: image5,
     name: "Mobile Safe",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -156,7 +156,7 @@ const products = [
     image_url: image6,
     name: "Make a Cake",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -164,7 +164,7 @@ const products = [
     image_url: image21,
     name: "Essay On Demand Contact Us",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -172,7 +172,7 @@ const products = [
     image_url: image22,
     name: "GMS Revenue Sheet",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -180,7 +180,7 @@ const products = [
     image_url: image23,
     name: "Gym Panel",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -188,7 +188,7 @@ const products = [
     image_url: image7,
     name: "Tourism",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -196,7 +196,7 @@ const products = [
     image_url: image24,
     name: "GMS Login",
     type: "Web Application",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -204,7 +204,7 @@ const products = [
     image_url: image8,
     name: "Real Time Location",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -212,7 +212,7 @@ const products = [
     image_url: image25,
     name: "Gym Freak",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -220,7 +220,7 @@ const products = [
     image_url: image27,
     name: "GMS Expense Sheet",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -228,7 +228,7 @@ const products = [
     image_url: image28,
     name: "Khan Burger Login",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -236,7 +236,7 @@ const products = [
     image_url: image29,
     name: "Gym Freak",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -244,7 +244,7 @@ const products = [
     image_url: image9,
     name: "Cash Cab",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
   {
@@ -252,7 +252,7 @@ const products = [
     image_url: image31,
     name: "Khan Burger Dashboard",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
   {
@@ -260,7 +260,7 @@ const products = [
     image_url: image10,
     name: "Ramzan Electronics",
     type: "App Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "app",
   },
 
@@ -269,7 +269,7 @@ const products = [
     image_url: image32,
     name: "Fahad's Portfolio",
     type: "Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "",
     sort: "webapp",
   },
 ];
