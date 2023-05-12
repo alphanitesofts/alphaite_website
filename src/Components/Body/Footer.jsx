@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-12">
               <div className="footer-widget">
                 {/* Brand */}
-                <a href="index.html" className="footer-brand text-white">
+                <a className="footer-brand text-white" style={{ textDecoration: 'none' }}>
                   ALphanites
                 </a>
                 <p>
@@ -27,11 +27,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-3 ml-lg-auto col-sm-12">
-              <div className="footer-widget">
+              <div className="footer-widget" >
                 <h3>Account</h3>
                 {/* Links */}
-                <ul className="footer-links ">
-                  <li>
+                <ul className="footer-links " >
+                  <li >
                     <a href="#!">Terms and conditions</a>
                   </li>
                   <li>
@@ -75,7 +75,6 @@ const Footer = () => {
             <div className="col-lg-2 col-sm-6">
               <div className="footer-widget">
                 <h3>Socials</h3>
-                {/* Links */}
                 <ul className="list-unstyled footer-links">
                   <li>
                     <a href="https://www.facebook.com/themefisher">
@@ -110,12 +109,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>{" "}
-          {/* / .row */}
+          </div>
           <div className="row  pt-5">
             <div className="col-lg-5 mx-auto">
               <div className="overflow-hidden text-center">
-                {/* Copyright */}
                 <p className="footer-copy">
                   Copyright © Designed &amp; Developed by
                   <a
@@ -126,12 +123,9 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-          </div>{" "}
-          {/* / .row */}
-        </div>{" "}
-        {/* / .container */}
+          </div>
+        </div>
       </footer>
-      {/*  Page Scroll to Top  */}
       <a
         id="scroll-to-top"
         className="scroll-to-top js-scroll-trigger"

@@ -18,7 +18,7 @@ const Team = () => {
               Our team is a diverse and highly skilled group of individuals who
               are committed to achieving our shared goals
             </p>
-          </div>
+          </div> 
         </div>
       </div>
       <div className="row ">

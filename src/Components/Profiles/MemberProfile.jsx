@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../portfolio/Logo.png";
-import bg from "../Sourcefiles/Images/backgroundimage.png";
+import bg from "../Sourcefiles/Images/97011 (1).jpg";
 import profile from "../Sourcefiles/Images/profileImage.png";
 import { useParams } from "react-router-dom";
 import teammembers from "../Sourcefiles/TeamMembers";
@@ -10,14 +10,11 @@ import Items from "../Homepage/Items";
 const MemberProfile = () => {
     const { id } = useParams();
     const teammember = teammembers.find((tm) => tm.id === parseInt(id));
-    const info = teammember.description
-    function FormattedText(props) {
-        return <pre>{props.description}</pre>;
-    }
 
     useEffect(() => {
         topFunction();
     }, []);
+
     var mybutton = document.getElementById("myBtn");
     window.onscroll = function () {
         scrollFunction();
@@ -111,9 +108,7 @@ const MemberProfile = () => {
                                             <b>{teammember.name}</b>
                                         </h3>
                                         <p className="mt-0 mb-1">{teammember.designation}</p>
-                                        {/* <p className='mt-0 mb-2'>https://www.instagram.com/art.khachatran/</p> */}
                                         <p className="mt-0 mb-3">
-                                            {" "}
                                             <i className="fa-solid fa-location-dot" /> Lahore,
                                             Pakistan
                                         </p>
@@ -131,16 +126,16 @@ const MemberProfile = () => {
                                             <p className="ms-auto">{teammember.projectsDone}</p>
                                         </div>
                                         <div className="d-flex" style={{ marginTop: "-10px" }}>
-                                            <p>Appreciations</p>
+                                            <p>Happy Clients</p>
                                             <p className="ms-auto">{teammember.projectsDone}</p>
                                         </div>
                                         <div className="d-flex" style={{ marginTop: "-10px" }}>
                                             <p>Followers</p>
-                                            <p className="ms-auto">{teammember.projectsDone}</p>
+                                            <p className="ms-auto">{teammember.followers}</p>
                                         </div>
                                         <div className="d-flex" style={{ marginTop: "-10px" }}>
                                             <p>Following</p>
-                                            <p className="ms-auto">{teammember.projectsDone}</p>
+                                            <p className="ms-auto">{teammember.following}</p>
                                         </div>
                                     </div>
 
@@ -148,27 +143,50 @@ const MemberProfile = () => {
                                         <p className="text-dark">
                                             <b>On the web</b>
                                         </p>
-                                        <button
-                                            className="btn btn-outline-secondary btn-circled w-100 mb-2"
-                                            style={{ border: "1px solid #6c757d" }}
-                                        >
-                                            <i className="fa-brands fa-linkedin fa-2x" />
-                                            &nbsp;Linkedin
-                                        </button>
-                                        <button
-                                            className="btn btn-outline-secondary btn-circled w-100 mb-2"
-                                            style={{ border: "1px solid #6c757d" }}
-                                        >
-                                            <i className="fa-brands fa-github fa-2x" />
-                                            &nbsp;Github
-                                        </button>
-                                        <button
-                                            className="btn btn-outline-secondary btn-circled w-100 mb-2"
-                                            style={{ border: "1px solid #6c757d" }}
-                                        >
-                                            <i className="fa-brands fa-instagram fa-2x" />
-                                            &nbsp;Instagram
-                                        </button>
+
+                                        {teammember.linkedin ? (
+                                            <>
+                                                <a
+                                                    href={teammember.linkedin}
+                                                    target={"_blank"}
+                                                    className="btn btn-outline-secondary btn-circled w-100 mb-2"
+                                                    style={{ border: "1px solid #6c757d" }}
+                                                >
+                                                    <i className="fa-brands fa-linkedin fa-2x" />
+                                                    &nbsp;Linkedin
+                                                </a>
+                                            </>
+                                        ) : null}
+
+                                        {
+                                            teammember.github ? (
+                                                <>
+                                                    <a
+                                                        href={teammember.github}
+                                                        target={"_blank"}
+                                                        className="btn btn-outline-secondary btn-circled w-100 mb-2"
+                                                        style={{ border: "1px solid #6c757d" }}
+                                                    >
+                                                        <i className="fa-brands fa-github fa-2x" />
+                                                        &nbsp;Github
+                                                    </a>
+                                                </>
+                                            ) : null
+                                        }
+
+                                        {teammember.instagram ? (
+                                            <>
+                                                <a
+                                                    href={teammember.instagram}
+                                                    target={"_blank"}
+                                                    className="btn btn-outline-secondary btn-circled w-100 mb-2"
+                                                    style={{ border: "1px solid #6c757d" }}
+                                                >
+                                                    <i className="fa-brands fa-instagram fa-2x" />
+                                                    &nbsp;Instagram
+                                                </a>
+                                            </>
+                                        ) : null}
                                     </div>
                                 </div>
                             </div>
@@ -181,11 +199,15 @@ const MemberProfile = () => {
                                 About Me
                             </button>
                             <div className="row mt-2">
-                                <div className="card card-styles">
+                                <div className="card card-styles" style={{ width: '885px' }}>
                                     <div className="card-body ">
                                         <h5 class="card-title">Hi there,</h5>
                                         <p class="card-text">
-                                            <FormattedText text={info} />
+                                            <td
+                                                dangerouslySetInnerHTML={{
+                                                    __html: teammember.description,
+                                                }}
+                                            />
                                         </p>
                                     </div>
                                 </div>
@@ -196,10 +218,10 @@ const MemberProfile = () => {
                             >
                                 Skills
                             </button>
-                            <div className="row mt-2">
-                                <div className="card card-styles">
+                            <div className="row mt-2 mb-4">
+                                <div className="card card-styles" style={{ width: '885px' }}>
                                     <div className="card-body">
-                                        <p class="card-text">HTML, javascript</p>
+                                        <p class="card-text">{teammember.technology}</p>
                                     </div>
                                 </div>
                             </div>

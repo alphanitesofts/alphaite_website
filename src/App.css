@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 880px) {
   .bg-img {
-    height: 120px;
+    height: 148px;
     margin-top: 90px;
     /* width: 100%; */
   }
@@ -144,7 +144,7 @@
   z-index: 1;
   margin-left: 50px;
   border-radius: 3px;
-  bottom: 50px;
+  bottom: 70px;
 
   position: relative;
   display: flex;
@@ -172,7 +172,6 @@
   min-height: 1px;
   padding: 1.25rem;
 }
-
 
 .card-styles {
   box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
