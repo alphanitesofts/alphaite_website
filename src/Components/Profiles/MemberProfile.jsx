@@ -1,18 +1,19 @@
-import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../portfolio/Logo.png";
-import bg from '../Sourcefiles/Images/backgroundimage.png'
-import profile from '../Sourcefiles/Images/profileImage.png'
-import faraz from '../Sourcefiles/Images/WhatsApp Image 2022-07-31 at 9.12.57 PM.jpeg'
-import { useParams } from 'react-router-dom';
+import bg from "../Sourcefiles/Images/backgroundimage.png";
+import profile from "../Sourcefiles/Images/profileImage.png";
+import { useParams } from "react-router-dom";
 import teammembers from "../Sourcefiles/TeamMembers";
-
-
+import Items from "../Homepage/Items";
 
 const MemberProfile = () => {
     const { id } = useParams();
     const teammember = teammembers.find((tm) => tm.id === parseInt(id));
-
+    const info = teammember.description
+    function FormattedText(props) {
+        return <pre>{props.description}</pre>;
+    }
 
     useEffect(() => {
         topFunction();
@@ -86,101 +87,132 @@ const MemberProfile = () => {
                 </nav>
             </div>
             {/* background top image */}
-            <div className='bg-img' >
-                <img src={bg} className='img-fluid' alt="" />
+            <div className="bg-img">
+                <img src={bg} className="img-fluid" alt="" />
             </div>
 
             {/* mainpage */}
 
             <div>
-                {
-                    teammember ?
-                        <div className='row'>
-                            <div className='col-lg-4'>
-                                <div className=' main-info-card'>
-                                    <div className='cardx-body'>
-                                        <div className='profile-card'>
-                                            <img src={teammember.image} className='profile-img' alt="" />
-                                        </div>
-                                        <div className='text-center'>
-                                            <h3 className='mt-3'><b>{teammember.name}</b></h3>
-                                            <p className='mt-0 mb-1'>{teammember.designation}</p>
-                                            {/* <p className='mt-0 mb-2'>https://www.instagram.com/art.khachatran/</p> */}
-                                            <p className='mt-0 mb-3'> <i className='fa-solid fa-location-dot' />  Lahore, Pakistan</p>
+                {teammember ? (
+                    <div className="row">
+                        <div className="col-lg-4">
+                            <div className=" main-info-card">
+                                <div className="cardx-body card-styles">
+                                    <div className="profile-card">
+                                        <img
+                                            src={teammember.image}
+                                            className="profile-img"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div className="text-center">
+                                        <h3 className="mt-3">
+                                            <b>{teammember.name}</b>
+                                        </h3>
+                                        <p className="mt-0 mb-1">{teammember.designation}</p>
+                                        {/* <p className='mt-0 mb-2'>https://www.instagram.com/art.khachatran/</p> */}
+                                        <p className="mt-0 mb-3">
+                                            {" "}
+                                            <i className="fa-solid fa-location-dot" /> Lahore,
+                                            Pakistan
+                                        </p>
 
-                                            <button className='btn btn-primary btn-circled w-100 mb-2'>Follow</button>
-                                            <button className='btn btn-secondary btn-circled w-100 mb-4'>Message</button>
+                                        <button className="btn btn-primary btn-circled w-100 mb-2">
+                                            Follow
+                                        </button>
+                                        <button className="btn btn-secondary btn-circled w-100 mb-4">
+                                            Message
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <div className="d-flex">
+                                            <p>Project Done</p>
+                                            <p className="ms-auto">{teammember.projectsDone}</p>
                                         </div>
-                                        <div>
-                                            <div className='d-flex'>
-                                                <p>Project Done</p>
-                                                <p className='ms-auto'>{teammember.projectsDone}</p>
-                                            </div>
-                                            <div className='d-flex' style={{ marginTop: '-10px' }}>
-                                                <p>Appreciations</p>
-                                                <p className='ms-auto'>45,3489</p>
-                                            </div>
-                                            <div className='d-flex' style={{ marginTop: '-10px' }}>
-                                                <p>Followers</p>
-                                                <p className='ms-auto'>45,3489</p>
-                                            </div>
-                                            <div className='d-flex' style={{ marginTop: '-10px' }}>
-                                                <p>Following</p>
-                                                <p className='ms-auto'>45,3489</p>
-                                            </div>
+                                        <div className="d-flex" style={{ marginTop: "-10px" }}>
+                                            <p>Appreciations</p>
+                                            <p className="ms-auto">{teammember.projectsDone}</p>
                                         </div>
+                                        <div className="d-flex" style={{ marginTop: "-10px" }}>
+                                            <p>Followers</p>
+                                            <p className="ms-auto">{teammember.projectsDone}</p>
+                                        </div>
+                                        <div className="d-flex" style={{ marginTop: "-10px" }}>
+                                            <p>Following</p>
+                                            <p className="ms-auto">{teammember.projectsDone}</p>
+                                        </div>
+                                    </div>
 
-                                        <div>
-                                            <p className='text-dark'><b>On the web</b></p>
-                                            <button className='btn btn-outline-secondary btn-circled w-100 mb-2' style={{ border: '1px solid #6c757d' }}><i className='fa-brands fa-linkedin fa-2x' />&nbsp;Linkedin</button>
-                                            <button className='btn btn-outline-secondary btn-circled w-100 mb-2' style={{ border: '1px solid #6c757d' }}><i className='fa-brands fa-github fa-2x' />&nbsp;Github</button>
-                                            <button className='btn btn-outline-secondary btn-circled w-100 mb-2' style={{ border: '1px solid #6c757d' }}><i className='fa-brands fa-instagram fa-2x' />&nbsp;Instagram</button>
-                                        </div>
-
+                                    <div>
+                                        <p className="text-dark">
+                                            <b>On the web</b>
+                                        </p>
+                                        <button
+                                            className="btn btn-outline-secondary btn-circled w-100 mb-2"
+                                            style={{ border: "1px solid #6c757d" }}
+                                        >
+                                            <i className="fa-brands fa-linkedin fa-2x" />
+                                            &nbsp;Linkedin
+                                        </button>
+                                        <button
+                                            className="btn btn-outline-secondary btn-circled w-100 mb-2"
+                                            style={{ border: "1px solid #6c757d" }}
+                                        >
+                                            <i className="fa-brands fa-github fa-2x" />
+                                            &nbsp;Github
+                                        </button>
+                                        <button
+                                            className="btn btn-outline-secondary btn-circled w-100 mb-2"
+                                            style={{ border: "1px solid #6c757d" }}
+                                        >
+                                            <i className="fa-brands fa-instagram fa-2x" />
+                                            &nbsp;Instagram
+                                        </button>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-8 '>
-                                <div className='d-flex mt-3 ms-3'>
-                                    {/* <button className='btn btn-outline-primary btn-sm btn-circled me-1 ps-4 pe-4 rounded-pill'>Work</button> */}
-                                    <button className='btn btn-secondary btn-circled btn-sm btn-circled ms-1 ps-4 pe-4 rounded-pill' style={{ border: '1px solid #6c757d' }}>About Me</button>
-                                </div>
-
-                                <div className='row ms-3 mt-3'>
-                                    <div className='card'>
-                                        <div className='card-body'>
-                                            <h5 class="card-title">Hi there,</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='d-flex mt-3 ms-3'>
-                                    {/* <button className='btn btn-outline-primary btn-sm btn-circled me-1 ps-4 pe-4 rounded-pill'>Work</button> */}
-                                    <button className='btn btn-outline-secondary btn-sm btn-circled ms-1 ps-4 pe-4 rounded-pill' style={{ border: '1px solid #6c757d' }}>Technologies</button>
-                                </div>
-
-                                <div className='row ms-3 mt-3'>
-                                    <div className='card'>
-                                        <div className='card-body'>
-                                            <p class="card-text">HTML, javascript</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div> :
-                        <div>
-                            <h1>no user found</h1>
                         </div>
-                }
-
+                        <div className="col-lg-8">
+                            <button
+                                className="btn btn-secondary btn-circled btn-sm btn-circled mt-3 ps-4 pe-4 rounded-pill"
+                                style={{ border: "1px solid #6c757d" }}
+                            >
+                                About Me
+                            </button>
+                            <div className="row mt-2">
+                                <div className="card card-styles">
+                                    <div className="card-body ">
+                                        <h5 class="card-title">Hi there,</h5>
+                                        <p class="card-text">
+                                            <FormattedText text={info} />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                className="btn btn-outline-secondary btn-sm btn-circled mt-4 ps-4 pe-4 rounded-pill"
+                                style={{ border: "1px solid #6c757d" }}
+                            >
+                                Skills
+                            </button>
+                            <div className="row mt-2">
+                                <div className="card card-styles">
+                                    <div className="card-body">
+                                        <p class="card-text">HTML, javascript</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ) : (
+                    <div>
+                        <h1>no user found</h1>
+                    </div>
+                )}
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default MemberProfile
+export default MemberProfile;

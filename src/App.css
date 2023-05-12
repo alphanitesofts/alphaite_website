@@ -172,3 +172,13 @@
   min-height: 1px;
   padding: 1.25rem;
 }
+
+
+.card-styles {
+  box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+  transition: all 0.3s ease-in-out;
+
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 0.428rem;
+}
