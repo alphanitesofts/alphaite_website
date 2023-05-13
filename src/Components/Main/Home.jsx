@@ -1,10 +1,9 @@
 import React from "react";
 import Hero from "../Homepage/Hero";
+import Portfolio from "../Homepage/Portfolio";
 import Services from "../Homepage/Services";
-import Items from "../Homepage/Items";
-import WebServices from "../Homepage/WebServices";
 import Pricing from "../Homepage/Pricing";
-import Products from "../Homepage/Products";
+import Info from "../Homepage/Info";
 import AboutUs from "../Homepage/AboutUs";
 import Testimonial from "../Homepage/Testimonial";
 import Team from "../Homepage/Team";
@@ -17,10 +16,9 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Testimonial />
+      <Info />
       <Services />
-      <Products />
-      <WebServices />
-      <Items />
+      <Portfolio />
       <Pricing />
       <Team />
       <AboutUs />

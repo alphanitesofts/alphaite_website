@@ -2,10 +2,8 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../portfolio/Logo.png";
 import bg from "../Sourcefiles/Images/97011 (1).jpg";
-import profile from "../Sourcefiles/Images/profileImage.png";
 import { useParams } from "react-router-dom";
 import teammembers from "../Sourcefiles/TeamMembers";
-import Items from "../Homepage/Items";
 
 const MemberProfile = () => {
     const { id } = useParams();

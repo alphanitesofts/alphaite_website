@@ -34,7 +34,7 @@ import image31 from "../../portfolio/alphaWeb41.png";
 import image32 from "../../portfolio/alphaWeb43.png";
 import products from "../Sourcefiles/Portfolioprojects";
 
-const Items = () => {
+const Portfolio = () => {
   const [index, setIndex] = useState(0);
   const [selectedItem, setSelectedItem] = useState({});
   const [shouldShow, setShouldShow] = useState(false);
@@ -149,4 +149,4 @@ const Items = () => {
   );
 };
 
-export default Items;
+export default Portfolio;

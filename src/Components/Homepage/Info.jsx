@@ -1,9 +1,9 @@
 import React from "react";
 
-const Products = () => {
+const Info = () => {
   return (
     <div>
-      <section className="section" id="about-us">
+      <section className="section mt-5" id="about-us">
         <div className="overlay" />
         <div className="container">
           <div className="row">
@@ -65,4 +65,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Info;
