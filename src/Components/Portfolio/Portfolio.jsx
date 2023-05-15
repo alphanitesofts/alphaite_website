@@ -82,7 +82,7 @@ const Portfolio = () => {
                                 <p className="text-white">Airbnb</p>
                                 <h1 className="text-white">Digital Ecosystem for 20,000 Airbnb hosts</h1>
                                 <div className="divider-info" />
-                                <Link to='Project-info' style={{ textDecoration: "none" }} className="text-white">
+                                <Link to='/Project-info' style={{ textDecoration: "none" }} className="text-white">
                                     <p>View Case Study  <i className="arrow fa-solid fa-chevron-right" /> </p>
                                 </Link>
                             </div>
