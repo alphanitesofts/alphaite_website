@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
         <div className="container">
           <a className="navbar-brand">
-<img src={Logo} style={{height:'40px'}} alt="" />
+            <img src={Logo} style={{ height: '40px' }} alt="" />
           </a>
           <button
             className="navbar-toggler"
@@ -27,7 +27,7 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item ">
-                <Link  to="/" className="nav-link js-scroll-trigger">
+                <Link to="/" className="nav-link js-scroll-trigger">
                   Home
                 </Link>
               </li>
@@ -42,17 +42,17 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item ">
-                <a href="#our-portfolio" className="nav-link js-scroll-trigger">
+                <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav-item ">
                 <a href="#pricing" className="nav-link js-scroll-trigger">
                   Pricing
                 </a>
               </li>
-              
-              
+
+
               <li className="nav-item ">
                 <Link
                   to="ContactUs"

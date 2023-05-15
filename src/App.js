@@ -5,6 +5,8 @@ import Home from "./Components/Main/Home";
 import Footer from "./Components/Body/Footer";
 import Contact from "./Components/Main/Contact";
 import MemberProfile from "./Components/Profiles/MemberProfile";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Projectinfo from "./Components/Portfolio/Projectinfo";
 
 function App() {
   const [assetsLoaded, setAssetsLoaded] = useState(false);
@@ -26,6 +28,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="ContactUs" element={<Contact />} />
             <Route path="MemberProfile/:id" element={<MemberProfile />} />
+            <Route path="Web-Portfolio" element={<Portfolio/>} />
+            <Route path="Project-info" element={<Projectinfo/>} />
           </Routes>
           <Footer />
         </Router>
