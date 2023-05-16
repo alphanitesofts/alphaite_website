@@ -9,10 +9,32 @@ import 'wowjs/css/libs/animate.css';
 
 const Portfolio = () => {
 
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function () {
+        scrollFunction();
+    };
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 400 ||
+            document.documentElement.scrollTop > 400
+        ) {
+            mybutton = "block";
+        } else {
+            mybutton = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
     useEffect(() => {
+        topFunction();
+
         const wow = new WOW.WOW();
         wow.init();
     }, []);
+
 
     return (
         <div>

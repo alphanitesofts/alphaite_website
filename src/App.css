@@ -38,7 +38,7 @@
   display: none;
 }
 
-.card:hover .btn-social {
+.card .btn-social {
   position: absolute;
   margin-top: 30px;
   text-decoration: none;
@@ -275,7 +275,6 @@
   align-items: center;
   font-family: sans-serif;
 }
-
 
 .main-section-info {
   /* z-index: 10; */

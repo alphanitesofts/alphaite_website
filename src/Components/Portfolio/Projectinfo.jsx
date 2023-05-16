@@ -4,12 +4,37 @@ import Logo from "../../portfolio/Logo.png";
 import mainLogo from "../Sourcefiles/Images/web.png";
 
 const Projectinfo = () => {
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const [scrollPositionx, setScrollPositionx] = useState(0);
+    const [logoSize, setLogoSize] = useState(0);
+    const [backgroundColorStyle, setBackgroundColor] = useState(0);
+
+    var mybutton = document.getElementById("myBtn");
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 400 ||
+      document.documentElement.scrollTop > 400
+    ) {
+      mybutton = "block";
+    } else {
+      mybutton = "none";
+    }
+  }
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  useEffect(() => {
+    topFunction();
+  }, []);
 
     useEffect(() => {
+
+        // for logo styles on the main start
         const handleScroll = () => {
-            setScrollPosition(window.scrollY);
+            setLogoSize(window.scrollY);
         };
         window.addEventListener("scroll", handleScroll);
         return () => {
@@ -19,7 +44,7 @@ const Projectinfo = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrollPositionx(window.scrollY);
+            setBackgroundColor(window.scrollY);
         };
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -28,22 +53,24 @@ const Projectinfo = () => {
     }, []);
 
     const getTransformStyle = () => {
-        const scale = 1 + scrollPosition * 0.01;
+        const scale = 1 + logoSize * 0.01;
         return { transform: `scale(${scale})` };
     };
 
     const getOpacityStyle = () => {
-        const opacity = 1 - scrollPosition / window.innerHeight;
+        const opacity = 1 - logoSize / window.innerHeight;
         return { opacity };
     };
 
-    const shouldHideImage = scrollPosition > 500;
+    const shouldHideImage = logoSize > 550;
 
     const calculateBackgroundColor = () => {
-        const redValue = Math.round((scrollPositionx / window.innerHeight) * 255);
+        const redValue = Math.round((backgroundColorStyle / window.innerHeight) * 255);
         const backgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
         return backgroundColor;
     };
+
+
 
     return (
         <div>
