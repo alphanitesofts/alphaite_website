@@ -5,16 +5,25 @@ import mainLogo from "../Sourcefiles/Images/web.png";
 
 const Projectinfo = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
+    const [scrollPositionx, setScrollPositionx] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {
             setScrollPosition(window.scrollY);
         };
-
         window.addEventListener("scroll", handleScroll);
-
         return () => {
             window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrollPositionx(window.scrollY);
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -29,25 +38,6 @@ const Projectinfo = () => {
     };
 
     const shouldHideImage = scrollPosition > 500;
-
-
-
-    // background
-
-
-    const [scrollPositionx, setScrollPositionx] = useState(0);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrollPositionx(window.scrollY);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     const calculateBackgroundColor = () => {
         const redValue = Math.round((scrollPositionx / window.innerHeight) * 255);
