@@ -4,8 +4,8 @@ import Logo from "../../portfolio/Logo.png";
 import cover1 from '../Sourcefiles/Images/cover1.png'
 import cover2 from '../Sourcefiles/Images/cover2.png'
 import WOW from 'wowjs';
-
 import 'wowjs/css/libs/animate.css';
+import AllProjects from "../Sourcefiles/AllProjects";
 
 const Portfolio = () => {
 
@@ -30,7 +30,6 @@ const Portfolio = () => {
 
     useEffect(() => {
         topFunction();
-
         const wow = new WOW.WOW();
         wow.init();
     }, []);
@@ -97,32 +96,27 @@ const Portfolio = () => {
             </div>
             <div className="main-portfolio-section">
                 <div className="row mb-5">
-                    <div className="col-lg-6 mb-3">
-                        <div className="card main-card" style={{ backgroundColor: '#FF5A5F' }} >
-                            <img src={cover1} className="card-img-top img-fluid" alt="..." />
-                            <div className="card-body p-5">
-                                <p className="text-white">Airbnb</p>
-                                <h1 className="text-white">Digital Ecosystem for 20,000 Airbnb hosts</h1>
-                                <div className="divider-info" />
-                                <Link to='/Project-info' style={{ textDecoration: "none" }} className="text-white">
-                                    <p>View Case Study  <i className="arrow fa-solid fa-chevron-right" /> </p>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 mb-3">
-                        <div className="card main-card" style={{ backgroundColor: '#202020' }} >
-                            <img src={cover2} className="card-img-top img-fluid" alt="..." />
-                            <div className="card-body p-5">
-                                <p className="text-white">Airbnb</p>
-                                <h1 className="text-white">Digital Ecosystem for 20,000 Airbnb hosts</h1>
-                                <div className="divider-info" />
-                                <div className="text-white ">
-                                    <p>View Case Study  <i className="arrow fa-solid fa-chevron-right" /> </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {
+                        AllProjects.map((items) => {
+                            return (
+                                <>
+                                    <div className="col-lg-6 mb-3">
+                                        <div className="card main-card" style={{ backgroundColor: `${items.color}` }} >
+                                            <img src={items.image_url} className="card-img-top img-fluid" alt="..." />
+                                            <div className="card-body p-5">
+                                                <p className="text-white" style={{ fontSize: '24px' }}>{items.project_name}</p>
+                                                <h1 className="text-white">{items.main_heading}</h1>
+                                                <div className="divider-info" />
+                                                <Link to={`/Project-info/${items.id}`} style={{ textDecoration: "none" }} className="text-white">
+                                                    <p>View Case Study  <i className="arrow fa-solid fa-chevron-right" /> </p>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </>
+                            )
+                        })
+                    }
                 </div>
             </div>
 

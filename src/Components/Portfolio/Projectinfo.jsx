@@ -1,37 +1,57 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Logo from "../../portfolio/Logo.png";
 import mainLogo from "../Sourcefiles/Images/web.png";
+import AllProjects from "../Sourcefiles/AllProjects";
 
 const Projectinfo = () => {
+    const { id } = useParams();
+    const project = AllProjects.find((tm) => tm.id === parseInt(id));
+
     const [logoSize, setLogoSize] = useState(0);
-    const [backgroundColorStyle, setBackgroundColor] = useState(0);
-
-    var mybutton = document.getElementById("myBtn");
-  window.onscroll = function () {
-    scrollFunction();
-  };
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 400 ||
-      document.documentElement.scrollTop > 400
-    ) {
-      mybutton = "block";
-    } else {
-      mybutton = "none";
-    }
-  }
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  useEffect(() => {
-    topFunction();
-  }, []);
+    const [backgroundColor, setBackgroundColorx] = useState('rgb(0, 0, 0)');
 
     useEffect(() => {
+        const handleScroll = () => {
+            const scrollValue = window.scrollY;
+            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            // Calculate the desired background color based on the scroll value
+            const redValue = Math.round((scrollValue / maxScroll) * 700);
+            const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
+            setBackgroundColorx(newBackgroundColor);
+        };
+        // Attach the scroll event listener when the component mounts
+        window.addEventListener('scroll', handleScroll);
+        // Clean up the scroll event listener when the component unmounts
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function () {
+        scrollFunction();
+    };
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 400 ||
+            document.documentElement.scrollTop > 400
+        ) {
+            mybutton = "block";
+        } else {
+            mybutton = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    useEffect(() => {
+        topFunction();
+    }, []);
+
+    useEffect(() => {
         // for logo styles on the main start
         const handleScroll = () => {
             setLogoSize(window.scrollY);
@@ -42,15 +62,6 @@ const Projectinfo = () => {
         };
     }, []);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            setBackgroundColor(window.scrollY);
-        };
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     const getTransformStyle = () => {
         const scale = 1 + logoSize * 0.01;
@@ -63,14 +74,6 @@ const Projectinfo = () => {
     };
 
     const shouldHideImage = logoSize > 550;
-
-    const calculateBackgroundColor = () => {
-        const redValue = Math.round((backgroundColorStyle / window.innerHeight) * 255);
-        const backgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
-        return backgroundColor;
-    };
-
-
 
     return (
         <div>
@@ -124,12 +127,13 @@ const Projectinfo = () => {
 
             {/* main content */}
             {/* className="main-background" */}
-            <div style={{ backgroundColor: calculateBackgroundColor() }}>
+
+            <div style={{ backgroundColor, minHeight: '100vh' }}>
                 <div className="main-section-info">
                     <div className="center-block">
                         <div className="col-lg-6 mx-auto">
                             <p style={{ fontSize: "30px" }} className="mt-0 mb-0 text-white">
-                                <b>AirBnB Open</b>
+                                <b>{project.project_name}</b>
                             </p>
                             <p
                                 style={{
@@ -139,8 +143,7 @@ const Projectinfo = () => {
                                 }}
                                 className="mt-0 mb-0 text-white"
                             >
-                                Global annual conference for 20,000+ Airbnb hosts from 100+
-                                countries
+                                {project.main_heading}
                             </p>
                         </div>
                     </div>
@@ -157,21 +160,36 @@ const Projectinfo = () => {
                     />
                 </div>
 
-                <div style={{ marginTop: '80px' }}>
+                <div style={{ marginTop: "80px", paddingBottom: "100px" }}>
                     <div className="container">
                         <div className="">
                             <div className="center-block">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-4">
-                                        <h1>THE
-                                            CHALLENGE</h1>
+                                        <h1>THE CHALLENGE</h1>
                                     </div>
                                     <div className="col-lg-5">
-                                        <p>Airbnb’s third-annual global conference, the Airbnb Open, welcomed 20,000+ hosts from 100+ countries to LA for a week of social collaboration, learning, speaker panels and specialty classes, capped off by a star-studded awards show and music. For a modern brand like Airbnb, the mobile and digital experience was a prime focus to engage users before, during and after the event, with smartly crafted applications that facilitate the best experience possible.</p>
+                                        <p>{project.challange}</p>
                                     </div>
                                 </div>
                             </div>
-
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div className="container" style={{ paddingBottom: "100px" }}>
+                <div className="">
+                    <div className="center-block">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4">
+                                <h1>THE SOLUTION</h1>
+                                <p>{project.solution}</p>
+                            </div>
+                            <div className="col-lg-5">
+                                <img src={project.image_url} className="img-fluid" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
