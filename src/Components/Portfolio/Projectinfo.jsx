@@ -11,22 +11,43 @@ const Projectinfo = () => {
     const [logoSize, setLogoSize] = useState(0);
     const [backgroundColor, setBackgroundColorx] = useState('rgb(0, 0, 0)');
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollValue = window.scrollY;
-            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-            // Calculate the desired background color based on the scroll value
-            const redValue = Math.round((scrollValue / maxScroll) * 700);
-            const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
-            setBackgroundColorx(newBackgroundColor);
-        };
-        // Attach the scroll event listener when the component mounts
-        window.addEventListener('scroll', handleScroll);
-        // Clean up the scroll event listener when the component unmounts
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const scrollValue = window.scrollY;
+    //         const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    //         // Calculate the desired background color based on the scroll value
+    //         const redValue = Math.round((scrollValue / maxScroll) * 700);
+    //         const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
+    //         setBackgroundColorx(newBackgroundColor);
+    //     };
+    //     // Attach the scroll event listener when the component mounts
+    //     window.addEventListener('scroll', handleScroll);
+    //     // Clean up the scroll event listener when the component unmounts
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
+
+
+useEffect(() => {
+  const handleScroll = () => {
+    const scrollValue = window.scrollY;
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    // Calculate the desired background color based on the scroll value
+    const redValue = Math.round((scrollValue / maxScroll) * 700);
+    const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
+    setBackgroundColorx(newBackgroundColor);
+  };
+
+  // Attach the scroll event listener when the component mounts
+  window.addEventListener('scroll', handleScroll);
+
+  // Clean up the scroll event listener when the component unmounts
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
 
     var mybutton = document.getElementById("myBtn");
     window.onscroll = function () {
@@ -107,10 +128,10 @@ const Projectinfo = () => {
                                 </li>
 
                                 <li className="nav-item ">
-                <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
-                  Projects
-                </Link>
-              </li>
+                                    <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
+                                        Projects
+                                    </Link>
+                                </li>
 
                                 <li className="nav-item ">
                                     <Link
