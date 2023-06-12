@@ -8,10 +8,10 @@ const Hero = () => {
       <section className="banner-area py-7">
         <div className="container">
           <div className="row  align-items-center">
-            <div className="col-md-12 col-lg-7 text-center text-lg-left">
+            <div className="col-md-12 col-lg-7 text-lg-left">
               <div className="main-banner">
                 {/* Heading */}
-                <h1 className="display-4 mb-4 font-weight-normal">
+                <h1 className="display-4  mb-4 font-weight-normal">
                   <Typewriter
                     options={{
                       strings: [

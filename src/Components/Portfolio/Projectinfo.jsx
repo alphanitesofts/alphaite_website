@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Logo from "../../portfolio/Logo.png";
-import mainLogo from "../Sourcefiles/Images/web.png";
+import mainLogo from "../Sourcefiles/Images/hover-img.png";
 import AllProjects from "../Sourcefiles/AllProjects";
 
 const Projectinfo = () => {
@@ -105,6 +105,12 @@ const Projectinfo = () => {
                                         Home
                                     </Link>
                                 </li>
+
+                                <li className="nav-item ">
+                <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
+                  Projects
+                </Link>
+              </li>
 
                                 <li className="nav-item ">
                                     <Link

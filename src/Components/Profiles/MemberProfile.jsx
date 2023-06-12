@@ -63,6 +63,12 @@ const MemberProfile = () => {
                                 </li>
 
                                 <li className="nav-item ">
+                <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
+                  Projects
+                </Link>
+              </li>
+
+                                <li className="nav-item ">
                                     <Link
                                         to="/ContactUs"
                                         state={{

@@ -7,6 +7,7 @@ import sarib from "../../portfolio/Sarib.jpg";
 import usama from "../../portfolio/usama.jpg";
 import waleed from "../../portfolio/waleed.jpg";
 import nauman from "../../portfolio/noman.jpg";
+import sonu from "../../portfolio/tasawar.png";
 
 const teammembers = [
   {
@@ -22,7 +23,8 @@ const teammembers = [
     instagram: "https://www.instagram.com/_usama.abdullah/",
     description:
       "<p>I'm Usama Abdullah, a passionate software engineer and the Director of Alphanite Softs. With a strong dedication to the field of technology and a drive for excellence, I have been leading our software development company to deliver exceptional solutions for businesses. <br /> <br /> My Journey <br /> <br /> My journey in the world of software engineering began with a deep fascination for coding and problem-solving. Over the years, I have honed my skills and expertise in various programming languages, frameworks, and development methodologies. This journey has equipped me with a solid foundation to create innovative and efficient software solutions. <br /> <br /> Vision and Mission <br /> <br /> At Alphanite Softs, our vision is to empower businesses through cutting-edge technology. We strive to provide tailored software solutions that drive growth, enhance productivity, and streamline operations for our clients. Our mission is to exceed expectations by delivering high-quality products that make a meaningful impact. <br /> <br /> Expertise and Leadership <br /><br /> With my experience and expertise in software engineering, I lead a team of talented professionals who share a common passion for technology. Together, we bring forth our diverse skill sets to create custom software solutions, web and mobile applications, and other digital products that meet the unique needs of our clients. <br /> <br />Client-Centric Approach <br /><br /> I believe in building strong and long-lasting relationships with our clients. Understanding their business objectives, challenges, and goals is at the forefront of our approach. By combining our technical knowledge with a client-centric mindset, we develop solutions that are tailored to their specific requirements and drive tangible results. <br /><br /> Continuous Innovation <br /><br /> As technology continues to evolve, I am committed to staying up-to-date with the latest advancements in the industry. This enables us to leverage the most cutting-edge tools, frameworks, and methodologies in our software development process. By embracing innovation, we ensure that our clients stay ahead of the curve in their respective industries. <br /><br /> Get in Touch <br /><br /> Whether you have a software project in mind or you're looking for expert guidance and consultation, I am here to assist you. Feel free to reach out to me directly through the contact information provided on our website. I look forward to the opportunity to collaborate and help you achieve your business objectives through technology.</p>  ",
-    technology: "As a full-stack web developer, the skills and technologies I use include Laravel (PHP framework), PHP, MySQL, RESTful APIs, MVC, OOP, server management, HTML, CSS, JavaScript, React, Angular, Vue.js, responsive web design, cross-browser compatibility, webpack, Babel, MySQL/PostgreSQL/SQLite, Eloquent ORM, database design, SQL, Git, GitHub/GitLab/Bitbucket, Agile,",
+    technology:
+      "As a full-stack web developer, the skills and technologies I use include Laravel (PHP framework), PHP, MySQL, RESTful APIs, MVC, OOP, server management, HTML, CSS, JavaScript, React, Angular, Vue.js, responsive web design, cross-browser compatibility, webpack, Babel, MySQL/PostgreSQL/SQLite, Eloquent ORM, database design, SQL, Git, GitHub/GitLab/Bitbucket, Agile,",
   },
   {
     id: 2,
@@ -86,8 +88,7 @@ const teammembers = [
     instagram: "https://www.instagram.com/waleed.khan.96/",
     description:
       "I am a Network Engineer/Full Stack Developer with a diverse skill set, capable of designing and managing complex computer networks as well as developing and maintaining web applications. I know well-versed in a range of technologies and programming languages, allowing them to work with both front-end and back-end components of software systems. <br /><br /> Their skills may include network design, installation, and maintenance, as well as proficiency in programming languages such as JavaScript, Python, and Java. They may also possess expertise in database management, cloud computing, and cybersecurity. <br /><br /> Skills:<br /> Network Engineering: Proficiency in designing, configuring, and maintaining computer networks. This includes knowledge of routing and switching protocols, network security principles, VLANs, VPNs, and troubleshooting network issues. <br /><br /> Web Development: Strong understanding of front-end web technologies such as HTML, CSS, and JavaScript. Experience with frameworks like React, Angular, or Vue.js. Knowledge of server-side languages like Node.js and back-end frameworks such as Express or Django. <br /><br /> Databases: Experience working with relational databases like MySQL or PostgreSQL, including designing and optimizing database schemas, writing complex SQL queries, and database administration tasks.",
-    technology:
-      "Network Engineer, Web Development , Databases",
+    technology: "Network Engineer, Web Development , Databases",
   },
   {
     id: 6,
@@ -139,6 +140,22 @@ const teammembers = [
   },
   {
     id: 9,
+    image: sonu,
+    name: "Tasawar Hayyat",
+    designation: "Front End Developer",
+    projectsDone: "67",
+    followers: "871",
+    following: "512",
+    linkedin: "https://www.linkedin.com/in/tasawar-hayat-aaaab4245/",
+    github: "",
+    instagram: "",
+    description:
+      "<p> Hello! I'm Tasawar, an intermediate front-end developer proficient in HTML, CSS, and JavaScript. With expertise in Bootstrap, Git, and RESTful APIs, I have a strong foundation in creating responsive web designs and integrating data from external sources. I specialize in React.js, utilizing its component-based architecture to develop dynamic and interactive web applications. My keen eye for UI design ensures visually appealing and user-friendly interfaces. With a detail-oriented approach and dedication to clean code, I strive to deliver high-quality solutions that meet client requirements. I'm eager to collaborate and contribute to innovative digital projects as part of a dynamic team.</p>",
+    technology:
+      "HTML, CSS, JavaScript, Bootstrap, Git, RESTful APIs, React.js, Bootstrap, jQuery, UI design, responsive web design, debugging, collaboration, Postman, Github, Agile.",
+  },
+  {
+    id: 10,
     image: nauman,
     name: "Nauman Zafar",
     designation: "UI/ UX Designer",

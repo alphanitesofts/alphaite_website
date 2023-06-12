@@ -1,3 +1,6 @@
+/* @import url(./Components/Sourcefiles/css/style.css); */
+/* @import url(./Components/Sourcefiles/css/style.css.map); */
+
 :root {
   --pretty-modal-modal-container-border-radius: 10px;
   --pretty-modal-backdrop-backdrop-filter: blur(4px);
@@ -187,7 +190,7 @@
   width: 100%;
   max-width: 1280px;
   align-content: center;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   padding-top: 128px;
   padding-bottom: 110px;
@@ -298,4 +301,10 @@
   right: 0;
   bottom: 0;
   opacity: 0.3;
+}
+
+.img-height {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }

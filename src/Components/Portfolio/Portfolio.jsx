@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../portfolio/Logo.png";
-import cover1 from '../Sourcefiles/Images/cover1.png'
-import cover2 from '../Sourcefiles/Images/cover2.png'
 import WOW from 'wowjs';
 import 'wowjs/css/libs/animate.css';
 import AllProjects from "../Sourcefiles/AllProjects";
@@ -67,6 +65,12 @@ const Portfolio = () => {
                                 </li>
 
                                 <li className="nav-item ">
+                                    <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
+                                        Projects
+                                    </Link>
+                                </li>
+
+                                <li className="nav-item ">
                                     <Link
                                         to="/ContactUs"
                                         state={{
@@ -88,13 +92,15 @@ const Portfolio = () => {
             {/* main content */}
 
             <div style={{ backgroundColor: "#000", paddingTop: "85px" }} />
-            <div className="header-block">
-                <div className="main-block">
-                    <h1 className="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">Launching products that scale</h1>
-                    <p className="sub-para-portfolio wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">Utility partners with clients to design and develop custom mobile apps, platforms and experiences. We work with an array of clients, from global brands and media properties to innovative startups and funded ventures.</p>
-                </div>
-            </div>
             <div className="main-portfolio-section">
+                <div className="header-block">
+                    <div className="main-block">
+                        <h1 className="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">Launching products that scale</h1>
+                        <p className="sub-para-portfolio wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">Utility partners with clients to design and develop custom mobile apps, platforms and experiences. We work with an array of clients, from global brands and media properties to innovative startups and funded ventures.</p>
+                    </div>
+                </div>
+
+                {/* style={{height:'400px'}} */}
                 <div className="row mb-5">
                     {
                         AllProjects.map((items) => {
@@ -102,7 +108,7 @@ const Portfolio = () => {
                                 <>
                                     <div className="col-lg-6 mb-3">
                                         <div className="card main-card" style={{ backgroundColor: `${items.color}` }} >
-                                            <img src={items.image_url} className="card-img-top img-fluid" alt="..." />
+                                            <img src={items.image_url} className="card-img-top img-height" alt="..." />
                                             <div className="card-body p-5">
                                                 <p className="text-white" style={{ fontSize: '24px' }}>{items.project_name}</p>
                                                 <h1 className="text-white">{items.main_heading}</h1>

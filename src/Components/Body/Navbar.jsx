@@ -5,7 +5,7 @@ import Logo from '../../portfolio/Logo.png'
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+      <nav className="navbar navbar-expand-lg navbar-dark  trans-navigation fixed-top navbar-togglable">
         <div className="container">
           <a className="navbar-brand">
             <img src={Logo} style={{ height: '40px' }} alt="" />

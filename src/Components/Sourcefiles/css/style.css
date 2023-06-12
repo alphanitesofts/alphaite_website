@@ -365,14 +365,14 @@ a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #000;
+  background: #21c87a;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
 
 @media (max-width: 992px) {
   .trans-navigation {
-    background: #000;
+    background: #21c87a;
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     border-radius: 0px;
   }
@@ -1771,7 +1771,7 @@ CONTACT PAGE
 
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #000;
+    background: #21c87a;
   }
 
   #map {
@@ -1811,7 +1811,7 @@ CONTACT PAGE
 
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #000;
+    background: #21c87a;
   }
 
   .top-info-block {
@@ -2096,7 +2096,7 @@ CONTACT PAGE
 
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #000;
+    background: #21c87a;
   }
 
   .web-service-block {
