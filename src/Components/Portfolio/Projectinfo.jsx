@@ -213,6 +213,9 @@ const Projectinfo = () => {
                             <div className="col-lg-4">
                                 <h1>THE SOLUTION</h1>
                                 <p>{project.solution}</p>
+                                <a className="btn btn-secondary btn-circled mb-2" href={project.project_link} target="_blank">
+                                    View Project <i className="fa-solid fa-link" />
+                                </a>
                             </div>
                             <div className="col-lg-5">
                                 <img src={project.image_url} className="img-fluid" alt="" />
