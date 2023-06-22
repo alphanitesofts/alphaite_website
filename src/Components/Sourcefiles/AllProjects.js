@@ -1,5 +1,3 @@
-import cover1 from "../Sourcefiles/Images/cover1.png";
-import cover2 from "../Sourcefiles/Images/cover2.png";
 import ecommerce from "../Sourcefiles/Images/ecommerce.png";
 import ebook from "../Sourcefiles/Images/ebook.png";
 import ems from "../Sourcefiles/Images/EMS.png";

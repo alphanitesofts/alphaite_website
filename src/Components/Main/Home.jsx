@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "../Homepage/Hero";
-import Portfolio from "../Homepage/Portfolio";
 import Services from "../Homepage/Services";
 import Pricing from "../Homepage/Pricing";
 import Info from "../Homepage/Info";
@@ -18,7 +17,6 @@ const Home = () => {
       <Testimonial />
       <Info />
       <Services />
-      {/* <Portfolio /> */}
       <Pricing />
       <Team />
       <AboutUs />

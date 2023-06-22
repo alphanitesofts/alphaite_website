@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import Logo from "../../portfolio/Logo.png";
+import Logo from "../Sourcefiles/Images/Logo.png";
 import mainLogo from "../Sourcefiles/Images/hover-img.png";
 import AllProjects from "../Sourcefiles/AllProjects";
 
@@ -29,24 +29,24 @@ const Projectinfo = () => {
     // }, []);
 
 
-useEffect(() => {
-  const handleScroll = () => {
-    const scrollValue = window.scrollY;
-    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-    // Calculate the desired background color based on the scroll value
-    const redValue = Math.round((scrollValue / maxScroll) * 700);
-    const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
-    setBackgroundColorx(newBackgroundColor);
-  };
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollValue = window.scrollY;
+            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            // Calculate the desired background color based on the scroll value
+            const redValue = Math.round((scrollValue / maxScroll) * 700);
+            const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
+            setBackgroundColorx(newBackgroundColor);
+        };
 
-  // Attach the scroll event listener when the component mounts
-  window.addEventListener('scroll', handleScroll);
+        // Attach the scroll event listener when the component mounts
+        window.addEventListener('scroll', handleScroll);
 
-  // Clean up the scroll event listener when the component unmounts
-  return () => {
-    window.removeEventListener('scroll', handleScroll);
-  };
-}, []);
+        // Clean up the scroll event listener when the component unmounts
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
 
     var mybutton = document.getElementById("myBtn");
@@ -128,7 +128,7 @@ useEffect(() => {
                                 </li>
 
                                 <li className="nav-item ">
-                                    <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
+                                    <Link to='/Web-Portfolio' className="nav-link js-scroll-trigger">
                                         Projects
                                     </Link>
                                 </li>

@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from 'react-router-dom'
 import teammembers from "../Sourcefiles/TeamMembers";
-import { useNavigate } from "react-router-dom";
-import MemberProfile from "../Profiles/MemberProfile";
 
 const Team = () => {
-  const navigate = useNavigate();
-  const [selectedItem, setSelectedItem] = useState('')
   return (
     <div>
       <div className="row justify-content-center mt-5">

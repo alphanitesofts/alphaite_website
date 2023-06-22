@@ -1,13 +1,13 @@
-import affan from "../../portfolio/affan.jpg";
-import ayesha from "../../portfolio/ayeshaBukhari.jpg";
-import bilal from "../../portfolio/BilalShuja.png";
-import faraz from "../../portfolio/Faraz.jpg";
-import iqra from "../../portfolio/IqraRasheed.jpg";
-import sarib from "../../portfolio/Sarib.jpg";
-import usama from "../../portfolio/usama.jpg";
-import waleed from "../../portfolio/waleed.jpg";
-import nauman from "../../portfolio/noman.jpg";
-import sonu from "../../portfolio/tasawar.png";
+import affan from "../Sourcefiles/Images/affan.jpg";
+import ayesha from "../Sourcefiles/Images/ayeshaBukhari.jpg";
+import bilal from "../Sourcefiles/Images/BilalShuja.png";
+import faraz from "../Sourcefiles/Images/Faraz.jpg";
+import iqra from "../Sourcefiles/Images/IqraRasheed.jpg";
+import sarib from "../Sourcefiles/Images/Sarib.jpg";
+import usama from "../Sourcefiles/Images/usama.jpg";
+import waleed from "../Sourcefiles/Images/waleed.jpg";
+import nauman from "../Sourcefiles/Images/noman.jpg";
+import sonu from "../Sourcefiles/Images/tasawar.png";
 
 const teammembers = [
   {

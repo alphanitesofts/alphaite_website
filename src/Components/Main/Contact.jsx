@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Logo from "../../portfolio/Logo.png";
+import Logo from "../Sourcefiles/Images/Logo.png";
 
 const Contact = () => {
   const location = useLocation();
@@ -62,7 +62,7 @@ const Contact = () => {
               </li>
 
               <li className="nav-item ">
-                <Link to='Web-Portfolio' className="nav-link js-scroll-trigger">
+                <Link to='/Web-Portfolio' className="nav-link js-scroll-trigger">
                   Projects
                 </Link>
               </li>

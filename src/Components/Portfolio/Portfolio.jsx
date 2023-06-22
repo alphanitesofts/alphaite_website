@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../portfolio/Logo.png";
+import Logo from "../Sourcefiles/Images/Logo.png";
 import WOW from 'wowjs';
 import 'wowjs/css/libs/animate.css';
 import AllProjects from "../Sourcefiles/AllProjects";

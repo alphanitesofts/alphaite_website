@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import Logo from "../../portfolio/Logo.png";
+import Logo from "../Sourcefiles/Images/Logo.png";
 import bg from "../Sourcefiles/Images/97011 (1).jpg";
 import teammembers from "../Sourcefiles/TeamMembers";
 
