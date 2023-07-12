@@ -218,7 +218,7 @@ const Projectinfo = () => {
                                 </a>
                             </div>
                             <div className="col-lg-5">
-                                <img src={project.image_url} className="img-fluid" alt="" />
+                                <img loading="lazy" src={project.image_url} className="img-fluid" alt="" />
                             </div>
                         </div>
                     </div>

@@ -24,7 +24,7 @@ const Team = () => {
               <>
                 <div className="col-lg-3">
                   <div className="card m-3 mx-auto" style={{ width: "18rem" }}>
-                    <img src={items.image} className="card-img-top" alt="..." />
+                    <img src={items.image} loading="lazy" className="card-img-top" alt="..." />
                     <div className="card-body">
                       <h5 className="card-title">{items.name}</h5>
                       <p className="card-text">{items.designation}</p>

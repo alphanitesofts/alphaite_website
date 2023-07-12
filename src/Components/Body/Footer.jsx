@@ -126,6 +126,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
       <a
         id="scroll-to-top"
         className="scroll-to-top js-scroll-trigger"

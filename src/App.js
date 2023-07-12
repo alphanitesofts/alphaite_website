@@ -1,17 +1,31 @@
-import "./App.css";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Home from "./Components/Main/Home";
 import Footer from "./Components/Body/Footer";
 import Contact from "./Components/Main/Contact";
 import MemberProfile from "./Components/Profiles/MemberProfile";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Projectinfo from "./Components/Portfolio/Projectinfo";
+import Preloader from "./Components/Body/Preloader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 10000); // Adjust the duration as needed
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="top-header">
-    
+      
+      {loading ? (
+        <Preloader />
+      ) : (
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -22,8 +36,9 @@ function App() {
           </Routes>
           <Footer />
         </Router>
- 
+      )}
     </div>
   );
 }
+
 export default App;

@@ -108,7 +108,7 @@ const Portfolio = () => {
                                 <>
                                     <div className="col-lg-6 mb-3">
                                         <div className="card main-card" style={{ backgroundColor: `${items.color}` }} >
-                                            <img src={items.image_url} className="card-img-top img-height" alt="..." />
+                                            <img src={items.image_url} className="card-img-top img-height" loading="lazy" alt="..." />
                                             <div className="card-body p-5">
                                                 <p className="text-white" style={{ fontSize: '24px' }}>{items.project_name}</p>
                                                 <h1 className="text-white">{items.main_heading}</h1>
