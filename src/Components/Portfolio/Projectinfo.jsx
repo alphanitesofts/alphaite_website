@@ -11,22 +11,27 @@ const Projectinfo = () => {
     const [logoSize, setLogoSize] = useState(0);
     const [backgroundColor, setBackgroundColorx] = useState('rgb(0, 0, 0)');
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         const scrollValue = window.scrollY;
-    //         const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-    //         // Calculate the desired background color based on the scroll value
-    //         const redValue = Math.round((scrollValue / maxScroll) * 700);
-    //         const newBackgroundColor = `rgb(${redValue}, ${redValue}, ${redValue})`;
-    //         setBackgroundColorx(newBackgroundColor);
-    //     };
-    //     // Attach the scroll event listener when the component mounts
-    //     window.addEventListener('scroll', handleScroll);
-    //     // Clean up the scroll event listener when the component unmounts
-    //     return () => {
-    //         window.removeEventListener('scroll', handleScroll);
-    //     };
-    // }, []);
+
+
+    const [windowDimensions, setWindowDimensions] = useState({
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowDimensions({
+                width: window.innerWidth,
+                height: window.innerHeight
+            });
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
 
     useEffect(() => {
@@ -96,6 +101,12 @@ const Projectinfo = () => {
 
     const shouldHideImage = logoSize > 550;
 
+    //   const userScreen =  windowDimensions.width < 1750 && windowDimensions.height < 746 ? 'white' : backgroundColor; 
+
+    const userScreen = windowDimensions.width < 750 ? 'white' : backgroundColor;
+    const dynamicFontColor = windowDimensions.width < 750 ? 'black' : 'white';
+
+
     return (
         <div>
             {/* navbar */}
@@ -154,37 +165,41 @@ const Projectinfo = () => {
 
             {/* main content */}
             {/* className="main-background" */}
-
-            <div style={{ backgroundColor, minHeight: '100vh' }}>
+            {/* minHeight: '100vh'  */}
+            <div style={{ background: userScreen }}>
                 <div className="main-section-info">
                     <div className="center-block">
                         <div className="col-lg-6 mx-auto">
-                            <p style={{ fontSize: "30px" }} className="mt-0 mb-0 text-white">
+                            <p style={{ fontSize: "30px", color: dynamicFontColor }} className="mt-0 mb-0">
                                 <b>{project.project_name}</b>
                             </p>
                             <p
                                 style={{
+                                    color: dynamicFontColor,
                                     fontSize: "56px",
                                     fontWeight: "300",
                                     lineHeight: "120%",
                                 }}
-                                className="mt-0 mb-0 text-white"
+                                className="mt-0 mb-0"
                             >
                                 {project.main_heading}
                             </p>
                         </div>
                     </div>
+                    {
+                        windowDimensions.width > 750 ?
+                            <img
+                                src={mainLogo}
+                                className="logo-style"
+                                alt=""
+                                style={{
+                                    ...getTransformStyle(),
+                                    ...getOpacityStyle(),
+                                    display: shouldHideImage ? "none" : "initial",
+                                }}
+                            /> : null
+                    }
 
-                    <img
-                        src={mainLogo}
-                        className="logo-style"
-                        alt=""
-                        style={{
-                            ...getTransformStyle(),
-                            ...getOpacityStyle(),
-                            display: shouldHideImage ? "none" : "initial",
-                        }}
-                    />
                 </div>
 
                 <div style={{ marginTop: "80px", paddingBottom: "100px" }}>
@@ -212,10 +227,23 @@ const Projectinfo = () => {
                         <div className="row justify-content-center">
                             <div className="col-lg-4">
                                 <h1>THE SOLUTION</h1>
+
+
+
+
+                                <p>Width: {windowDimensions.width}px</p>
+                                <p>Height: {windowDimensions.height}px</p>
+
+
+
                                 <p>{project.solution}</p>
-                                <a className="btn btn-secondary btn-circled mb-2" href={project.project_link} target="_blank">
-                                    View Project <i className="fa-solid fa-link" />
-                                </a>
+                                {
+                                    project.project_link !== "" ?
+                                        <a className="btn btn-secondary btn-circled mb-2" href={project.project_link} target="_blank">
+                                            View Project <i className="fa-solid fa-link" />
+                                        </a> : null
+                                }
+
                             </div>
                             <div className="col-lg-5">
                                 <img loading="lazy" src={project.image_url} className="img-fluid" alt="" />

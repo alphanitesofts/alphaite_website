@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Sourcefiles/Images/Logo.png";
 import WOW from 'wowjs';
@@ -6,6 +6,16 @@ import 'wowjs/css/libs/animate.css';
 import AllProjects from "../Sourcefiles/AllProjects";
 
 const Portfolio = () => {
+
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 10000); // Adjust the duration as needed
+
+        return () => clearTimeout(timer);
+    }, []);
 
     var mybutton = document.getElementById("myBtn");
     window.onscroll = function () {
@@ -35,7 +45,8 @@ const Portfolio = () => {
 
     return (
         <div>
-            {/* navbar */}
+
+
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
                     <div className="container">

@@ -10,8 +10,75 @@ import plshare from "../Sourcefiles/Images/plshare.png";
 import ustrucking from "../Sourcefiles/Images/ustruckling.png";
 import viewfy from "../Sourcefiles/Images/viewfy.png";
 import hair from "../Sourcefiles/Images/hair.png";
+import talent from "../Sourcefiles/Images/talent.png";
 
 const AllProjects = [
+  {
+    id: 12,
+    image_url: ustrucking,
+    project_name: "Logistics with ease",
+    main_heading:
+      "Simplify your logistics operations with our efficient web-based platform",
+    color: "#FF4F51",
+    project_link: "https://ustruckingllc.com/",
+    challange:
+      "Before the introduction of Logistics web platforms, businesses encountered challenges such as manual and fragmented logistics processes, lack of real-time visibility into shipments, inefficient coordination between stakeholders, difficulty in managing complex supply chains, limited access to data and analytics, and inadequate tracking and tracing capabilities. These obstacles hindered operational efficiency and cost-effectiveness in logistics management.",
+    solution:
+      "Logistics web platforms resolved challenges by offering automated logistics processes, real-time visibility into shipments, improved coordination among stakeholders, enhanced supply chain management capabilities, access to data-driven insights, and advanced tracking and tracing functionalities. These solutions increased operational efficiency, reduced costs, and improved overall logistics management for businesses.",
+  },
+  {
+    id: 11,
+    image_url: hair,
+    project_name: "Hair Transplant Website",
+    main_heading:
+      "Rediscover your confidence with our transformative hair transplant solutions",
+    color: "#253A5D",
+    project_link: "",
+    challange:
+      "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
+    solution:
+      "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
+  },
+
+  {
+    id: 13,
+    image_url: plshare,
+    project_name: "Trading made easy",
+    main_heading:
+      "Trade, invest, and made immense profit with our intuitive trading app!",
+    color: "#176761",
+    project_link: "https://powerlevelshare.com/",
+    challange:
+      "Before the introduction of trading apps, investors faced challenges such as limited access to real-time market information, delayed trade execution, high transaction costs, lack of convenience in monitoring and managing investments, difficulty in researching stocks, and limited availability of trading tools and resources. These obstacles hindered efficient and profitable trading activities.",
+    solution:
+      "Trading apps provided solutions by offering real-time market information, facilitating instant trade execution, reducing transaction costs, providing convenient monitoring and management of investments, offering comprehensive research tools, and access to trading resources. These apps enhanced the efficiency and profitability of trading activities, making it more accessible and user-friendly for investors.",
+  },
+  {
+    id: 14,
+    image_url: viewfy,
+    project_name: "Increase your youtube views",
+    main_heading:
+      "Boost your YouTube viewership with our powerful bot viewer app!",
+    color: "#242943",
+    project_link: "https://www.viewfy.alphanitesofts.com/",
+    challange:
+      "Before the availability of YouTube-bot viewer increase apps, content creators faced challenges such as low viewership, difficulty in gaining organic traction, lack of exposure to target audiences, limited channel visibility, and slow growth. These obstacles hindered the reach and success of their YouTube channels and videos.",
+    solution:
+      "YouTube-bot viewer increase apps provided solutions by offering increased viewership, boosting organic traction, exposing content to target audiences, enhancing channel visibility, and accelerating growth. These apps enabled content creators to expand their reach, increase engagement, and improve the overall success of their YouTube channels and videos.",
+  },
+  {
+    id: 90,
+    image_url: talent,
+    project_name: "Showcase your talent",
+    main_heading: "Show your talent to the world!",
+    color: "#8638AB",
+    project_link: "https://www.mytalentshowcase.com/",
+    challange:
+      "When posting videos on platforms users often encounter various challenges. These include limited visibility due to algorithmic biases, difficulties in gaining organic reach. Additionally, copyright infringement issues and content moderation concerns pose hurdles for creators, limiting their freedom of expression and inhibiting their ability to share their talent with a wider audience.",
+    solution:
+    "My Talent Showcase, a TikTok-like app, solves the problem of limited platforms for users to showcase their unique talents. With its user-friendly interface and extensive reach, it empowers individuals to unleash their creativity, gain recognition, and connect with a global audience. From singing and dancing to comedy sketches and art, this app celebrates diverse talents and brings them into the spotlight.",
+  },
+
   {
     id: 3,
     image_url: ebook,
@@ -23,30 +90,6 @@ const AllProjects = [
       "Before the advent of E-Book apps, readers faced challenges such as limited access to physical books, inconvenience in carrying multiple books, difficulty in finding specific titles, lack of portability, and the inability to adjust font sizes. Additionally, the cost of purchasing physical books and limited availability in remote areas posed significant barriers to reading enthusiasts.",
     solution:
       "E-Book apps revolutionized reading by providing solutions to the challenges mentioned earlier. They offered unlimited access to a vast library of books at the fingertips of users, eliminating the need for physical copies. Portability became effortless as multiple books could be stored in a single device. Customizable font sizes and search functions enhanced the reading experience, making it accessible to a broader audience. E-Book apps also addressed cost concerns by offering affordable or even free options, and their digital nature eliminated geographical limitations, ensuring books were available worldwide.",
-  },
-  {
-    id: 4,
-    image_url: ecommerce,
-    project_name: "E-commerce",
-    main_heading: "Explore your favorite stores, items and outlets",
-    color: "#AABF95",
-    project_link: "",
-    challange:
-      "Before the advent of E-commerce apps, consumers faced challenges such as limited product selection, restricted shopping hours, geographical limitations, lack of price transparency, inconvenience of physical store visits, long checkout queues, and difficulty comparing products. Additionally, traditional retail often involved higher prices and limited access to customer reviews and ratings.",
-    solution:
-      "E-commerce apps revolutionized shopping by providing solutions to the challenges mentioned earlier. They offered a vast selection of products, 24/7 accessibility, global reach, transparent pricing, convenient online browsing, streamlined checkout processes, and easy product comparisons. E-commerce apps also facilitated lower prices, customer reviews, and personalized recommendations, enhancing the overall shopping experience for consumers.",
-  },
-  {
-    id: 5,
-    image_url: ems,
-    project_name: "EMS",
-    main_heading: "Employee Management System to assign tasks to employees",
-    color: "#58D8F4",
-    project_link: "",
-    challange:
-      "Before the introduction of Employee Management Systems, organizations faced challenges such as manual record-keeping, time-consuming paperwork, inefficient communication, difficulty in tracking attendance and leave, inadequate performance evaluation, lack of centralized data, and limited insights for decision-making and workforce management.",
-    solution:
-      "Employee Management Systems addressed the challenges by automating record-keeping, streamlining administrative tasks, enabling efficient communication, providing accurate attendance and leave tracking, facilitating performance evaluation, centralizing employee data, and generating insightful reports for informed decision-making and effective workforce management. These systems improved productivity, reduced errors, enhanced communication, and simplified HR processes.",
   },
   {
     id: 6,
@@ -61,17 +104,18 @@ const AllProjects = [
       "Employee Management Systems addressed the challenges by automating record-keeping, streamlining administrative tasks, enabling efficient communication, providing accurate attendance and leave tracking, facilitating performance evaluation, centralizing employee data, and generating insightful reports for informed decision-making and effective workforce management. These systems improved productivity, reduced errors, enhanced communication, and simplified HR processes.",
   },
   {
-    id: 7,
-    image_url: food,
-    project_name: "Food Ordering App",
-    main_heading: "Order food anytime, anywhere with our app!",
-    color: "#8B00B2",
+    id: 5,
+    image_url: ems,
+    project_name: "EMS",
+    main_heading: "Employee Management System to assign tasks to employees",
+    color: "#58D8F4",
     project_link: "",
     challange:
-      "Before the introduction of Food Ordering Apps, customers faced challenges such as limited restaurant options, difficulty in finding menus and prices, long waiting times on the phone, miscommunication of orders, lack of personalized recommendations, and the inconvenience of cash payments. Additionally, restaurant owners faced difficulties in managing orders and providing efficient delivery services.",
+      "Before the introduction of Employee Management Systems, organizations faced challenges such as manual record-keeping, time-consuming paperwork, inefficient communication, difficulty in tracking attendance and leave, inadequate performance evaluation, lack of centralized data, and limited insights for decision-making and workforce management.",
     solution:
-      "Food Ordering Apps resolved the challenges by offering a wide range of restaurant choices, providing menus and prices for easy browsing, enabling seamless ordering and payment processes, improving order accuracy, offering personalized recommendations, and facilitating efficient delivery services. These apps streamlined the entire food ordering experience for customers while helping restaurant owners manage orders and enhance their delivery operations.",
+      "Employee Management Systems addressed the challenges by automating record-keeping, streamlining administrative tasks, enabling efficient communication, providing accurate attendance and leave tracking, facilitating performance evaluation, centralizing employee data, and generating insightful reports for informed decision-making and effective workforce management. These systems improved productivity, reduced errors, enhanced communication, and simplified HR processes.",
   },
+ 
   {
     id: 8,
     image_url: partymusic,
@@ -109,56 +153,28 @@ const AllProjects = [
       "Trip apps addressed the challenges by providing consolidated travel information, simplifying itinerary planning, offering best deals and personalized recommendations, providing real-time updates and notifications, offering language translation features, and streamlining the process of managing bookings and reservations. These apps made trip planning and execution more convenient, efficient, and enjoyable for travelers.",
   },
   {
-    id: 11,
-    image_url: hair,
-    project_name: "Hair Transplant Website",
-    main_heading:
-      "Rediscover your confidence with our transformative hair transplant solutions",
-    color: "#253A5D",
+    id: 7,
+    image_url: food,
+    project_name: "Food Ordering App",
+    main_heading: "Order food anytime, anywhere with our app!",
+    color: "#8B00B2",
     project_link: "",
     challange:
-      "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
+      "Before the introduction of Food Ordering Apps, customers faced challenges such as limited restaurant options, difficulty in finding menus and prices, long waiting times on the phone, miscommunication of orders, lack of personalized recommendations, and the inconvenience of cash payments. Additionally, restaurant owners faced difficulties in managing orders and providing efficient delivery services.",
     solution:
-      "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
+      "Food Ordering Apps resolved the challenges by offering a wide range of restaurant choices, providing menus and prices for easy browsing, enabling seamless ordering and payment processes, improving order accuracy, offering personalized recommendations, and facilitating efficient delivery services. These apps streamlined the entire food ordering experience for customers while helping restaurant owners manage orders and enhance their delivery operations.",
   },
   {
-    id: 12,
-    image_url: ustrucking,
-    project_name: "Logistics with ease",
-    main_heading:
-      "Simplify your logistics operations with our efficient web-based platform",
-    color: "#FF4F51",
-    project_link: "https://ustruckingllc.com/",
+    id: 4,
+    image_url: ecommerce,
+    project_name: "E-commerce",
+    main_heading: "Explore your favorite stores, items and outlets",
+    color: "#AABF95",
+    project_link: "",
     challange:
-      "Before the introduction of Logistics web platforms, businesses encountered challenges such as manual and fragmented logistics processes, lack of real-time visibility into shipments, inefficient coordination between stakeholders, difficulty in managing complex supply chains, limited access to data and analytics, and inadequate tracking and tracing capabilities. These obstacles hindered operational efficiency and cost-effectiveness in logistics management.",
+      "Before the advent of E-commerce apps, consumers faced challenges such as limited product selection, restricted shopping hours, geographical limitations, lack of price transparency, inconvenience of physical store visits, long checkout queues, and difficulty comparing products. Additionally, traditional retail often involved higher prices and limited access to customer reviews and ratings.",
     solution:
-      "Logistics web platforms resolved challenges by offering automated logistics processes, real-time visibility into shipments, improved coordination among stakeholders, enhanced supply chain management capabilities, access to data-driven insights, and advanced tracking and tracing functionalities. These solutions increased operational efficiency, reduced costs, and improved overall logistics management for businesses.",
-  },
-  {
-    id: 13,
-    image_url: plshare,
-    project_name: "Trading made easy",
-    main_heading:
-      "Trade, invest, and made immense profit with our intuitive trading app!",
-    color: "#176761",
-    project_link: "https://powerlevelshare.com/",
-    challange:
-      "Before the introduction of trading apps, investors faced challenges such as limited access to real-time market information, delayed trade execution, high transaction costs, lack of convenience in monitoring and managing investments, difficulty in researching stocks, and limited availability of trading tools and resources. These obstacles hindered efficient and profitable trading activities.",
-    solution:
-      "Trading apps provided solutions by offering real-time market information, facilitating instant trade execution, reducing transaction costs, providing convenient monitoring and management of investments, offering comprehensive research tools, and access to trading resources. These apps enhanced the efficiency and profitability of trading activities, making it more accessible and user-friendly for investors.",
-  },
-  {
-    id: 14,
-    image_url: viewfy,
-    project_name: "Increase your youtube views",
-    main_heading:
-      "Boost your YouTube viewership with our powerful bot viewer app!",
-    color: "#242943",
-    project_link: "https://www.viewfy.alphanitesofts.com/",
-    challange:
-      "Before the availability of YouTube-bot viewer increase apps, content creators faced challenges such as low viewership, difficulty in gaining organic traction, lack of exposure to target audiences, limited channel visibility, and slow growth. These obstacles hindered the reach and success of their YouTube channels and videos.",
-    solution:
-      "YouTube-bot viewer increase apps provided solutions by offering increased viewership, boosting organic traction, exposing content to target audiences, enhancing channel visibility, and accelerating growth. These apps enabled content creators to expand their reach, increase engagement, and improve the overall success of their YouTube channels and videos.",
+      "E-commerce apps revolutionized shopping by providing solutions to the challenges mentioned earlier. They offered a vast selection of products, 24/7 accessibility, global reach, transparent pricing, convenient online browsing, streamlined checkout processes, and easy product comparisons. E-commerce apps also facilitated lower prices, customer reviews, and personalized recommendations, enhancing the overall shopping experience for consumers.",
   },
 ];
 
