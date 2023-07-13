@@ -7,10 +7,14 @@ import partymusic from "../Sourcefiles/Images/party-music.png";
 import tour from "../Sourcefiles/Images/tour.png";
 import trip from "../Sourcefiles/Images/trip.png";
 import plshare from "../Sourcefiles/Images/plshare.png";
+import plshare1 from '../Sourcefiles/Images/PLSHARES.png'
 import ustrucking from "../Sourcefiles/Images/ustruckling.png";
 import viewfy from "../Sourcefiles/Images/viewfy.png";
 import hair from "../Sourcefiles/Images/hair.png";
 import talent from "../Sourcefiles/Images/talent.png";
+import talent1 from '../Sourcefiles/Images/Talent1.png'
+import hymk from '../Sourcefiles/Images/hymk.png'
+import TT from '../Sourcefiles/Images/TT.png'
 
 const AllProjects = [
   {
@@ -34,6 +38,32 @@ const AllProjects = [
       "Rediscover your confidence with our transformative hair transplant solutions",
     color: "#253A5D",
     project_link: "",
+    challange:
+      "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
+    solution:
+      "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
+  },
+  {
+    id: 56,
+    image_url: TT,
+    project_name: "Hair Transplant Website",
+    main_heading:
+      "Rediscover your confidence with our transformative hair transplant solutions",
+    color: "#B7A366",
+    project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
+    challange:
+      "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
+    solution:
+      "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
+  },
+  {
+    id: 56,
+    image_url: hymk,
+    project_name: "Hair Transplant Website",
+    main_heading:
+      "Rediscover your confidence with our transformative hair transplant solutions",
+    color: "#FF0300",
+    project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
     challange:
       "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
     solution:
@@ -68,7 +98,7 @@ const AllProjects = [
   },
   {
     id: 90,
-    image_url: talent,
+    image_url: talent1,
     project_name: "Showcase your talent",
     main_heading: "Show your talent to the world!",
     color: "#8638AB",
