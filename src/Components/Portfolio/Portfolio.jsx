@@ -12,7 +12,7 @@ const Portfolio = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 10000); // Adjust the duration as needed
+        }, 5000); // Adjust the duration as needed
 
         return () => clearTimeout(timer);
     }, []);
@@ -45,8 +45,6 @@ const Portfolio = () => {
 
     return (
         <div>
-
-
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
                     <div className="container">
@@ -136,7 +134,6 @@ const Portfolio = () => {
                     }
                 </div>
             </div>
-
         </div>
     )
 }
