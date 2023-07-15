@@ -18,7 +18,7 @@ import TT from '../Sourcefiles/Images/TT.png'
 
 const AllProjects = [
   {
-    id: 12,
+    id: 1,
     image_url: ustrucking,
     project_name: "Logistics with ease",
     main_heading:
@@ -31,7 +31,7 @@ const AllProjects = [
       "Logistics web platforms resolved challenges by offering automated logistics processes, real-time visibility into shipments, improved coordination among stakeholders, enhanced supply chain management capabilities, access to data-driven insights, and advanced tracking and tracing functionalities. These solutions increased operational efficiency, reduced costs, and improved overall logistics management for businesses.",
   },
   {
-    id: 11,
+    id: 2,
     image_url: hair,
     project_name: "Hair Transplant Website",
     main_heading:
@@ -44,7 +44,7 @@ const AllProjects = [
       "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
   },
   {
-    id: 56,
+    id: 3,
     image_url: TT,
     project_name: "Hair Transplant Website",
     main_heading:
@@ -57,7 +57,7 @@ const AllProjects = [
       "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
   },
   {
-    id: 56,
+    id: 4,
     image_url: hymk,
     project_name: "Hair Transplant Website",
     main_heading:
@@ -71,7 +71,7 @@ const AllProjects = [
   },
 
   {
-    id: 13,
+    id: 5,
     image_url: plshare,
     project_name: "Trading made easy",
     main_heading:
@@ -84,7 +84,7 @@ const AllProjects = [
       "Trading apps provided solutions by offering real-time market information, facilitating instant trade execution, reducing transaction costs, providing convenient monitoring and management of investments, offering comprehensive research tools, and access to trading resources. These apps enhanced the efficiency and profitability of trading activities, making it more accessible and user-friendly for investors.",
   },
   {
-    id: 14,
+    id: 6,
     image_url: viewfy,
     project_name: "Increase your youtube views",
     main_heading:
@@ -97,7 +97,7 @@ const AllProjects = [
       "YouTube-bot viewer increase apps provided solutions by offering increased viewership, boosting organic traction, exposing content to target audiences, enhancing channel visibility, and accelerating growth. These apps enabled content creators to expand their reach, increase engagement, and improve the overall success of their YouTube channels and videos.",
   },
   {
-    id: 90,
+    id: 7,
     image_url: talent1,
     project_name: "Showcase your talent",
     main_heading: "Show your talent to the world!",
@@ -110,7 +110,7 @@ const AllProjects = [
   },
 
   {
-    id: 3,
+    id: 8,
     image_url: ebook,
     project_name: "E-Books",
     main_heading: "Read, and immerse yourself in the world of e-books!",
@@ -122,7 +122,7 @@ const AllProjects = [
       "E-Book apps revolutionized reading by providing solutions to the challenges mentioned earlier. They offered unlimited access to a vast library of books at the fingertips of users, eliminating the need for physical copies. Portability became effortless as multiple books could be stored in a single device. Customizable font sizes and search functions enhanced the reading experience, making it accessible to a broader audience. E-Book apps also addressed cost concerns by offering affordable or even free options, and their digital nature eliminated geographical limitations, ensuring books were available worldwide.",
   },
   {
-    id: 6,
+    id: 9,
     image_url: ems1,
     project_name: "EMS",
     main_heading: "Employee Management System to get update from your team",
@@ -134,7 +134,7 @@ const AllProjects = [
       "Employee Management Systems addressed the challenges by automating record-keeping, streamlining administrative tasks, enabling efficient communication, providing accurate attendance and leave tracking, facilitating performance evaluation, centralizing employee data, and generating insightful reports for informed decision-making and effective workforce management. These systems improved productivity, reduced errors, enhanced communication, and simplified HR processes.",
   },
   {
-    id: 5,
+    id: 10,
     image_url: ems,
     project_name: "EMS",
     main_heading: "Employee Management System to assign tasks to employees",
@@ -147,7 +147,7 @@ const AllProjects = [
   },
  
   {
-    id: 8,
+    id: 11,
     image_url: partymusic,
     project_name: "Party with friends",
     main_heading: "Virtual parties made fun: Connect with friends online!",
@@ -159,7 +159,7 @@ const AllProjects = [
       "Online-party apps provided solutions by offering a variety of virtual socializing options, providing tools for organizing and coordinating online events, incorporating interactive features for engagement, hosting platforms for group activities, and dedicated tools for virtual party planning and management. These apps enhanced the experience of hosting and participating in online parties, making them more interactive and enjoyable for all participants.",
   },
   {
-    id: 9,
+    id: 12,
     image_url: tour,
     project_name: "Explore the world",
     main_heading: "Discover, explore, and experience with our Tour app!",
@@ -171,7 +171,7 @@ const AllProjects = [
       "Tour apps provided solutions by offering comprehensive travel information, allowing users to easily plan itineraries, providing personalized recommendations based on user preferences, offering language translation features, reliable navigation systems, information on local attractions, and the convenience of booking accommodations and transportation within a single platform. These apps enhanced the travel experience, making it more convenient and enjoyable for users.",
   },
   {
-    id: 10,
+    id: 13,
     image_url: trip,
     project_name: "Plan Trip with your closed ones",
     main_heading: "Plan, book, and enjoy your perfect trip with our Trip app!",
@@ -183,7 +183,7 @@ const AllProjects = [
       "Trip apps addressed the challenges by providing consolidated travel information, simplifying itinerary planning, offering best deals and personalized recommendations, providing real-time updates and notifications, offering language translation features, and streamlining the process of managing bookings and reservations. These apps made trip planning and execution more convenient, efficient, and enjoyable for travelers.",
   },
   {
-    id: 7,
+    id: 14,
     image_url: food,
     project_name: "Food Ordering App",
     main_heading: "Order food anytime, anywhere with our app!",
@@ -195,7 +195,7 @@ const AllProjects = [
       "Food Ordering Apps resolved the challenges by offering a wide range of restaurant choices, providing menus and prices for easy browsing, enabling seamless ordering and payment processes, improving order accuracy, offering personalized recommendations, and facilitating efficient delivery services. These apps streamlined the entire food ordering experience for customers while helping restaurant owners manage orders and enhance their delivery operations.",
   },
   {
-    id: 4,
+    id: 15,
     image_url: ecommerce,
     project_name: "E-commerce",
     main_heading: "Explore your favorite stores, items and outlets",
