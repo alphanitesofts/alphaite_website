@@ -44,28 +44,28 @@ const AllProjects = [
   {
     id: 3,
     image_url: TT,
-    project_name: "Hair Transplant Website",
+    project_name: "Trading Tube",
     main_heading:
-      "Rediscover your confidence with our transformative hair transplant solutions",
+      "Effortlessly grow your wealth with our intuitive investment app",
     color: "#B7A366",
     project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
     challange:
-      "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
+      "Without the Trading Tube app, people struggled to access real-time market data, make informed investment decisions, and connect with a community of traders. They lacked a user-friendly platform for trading, learning, and sharing insights, resulting in missed opportunities, limited knowledge, and a lack of engagement in the world of trading.",
     solution:
-      "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
+      "With the exciting investment app Trading Tube. People can now easily access real-time market data, empowering them to make informed investment decisions. They can connect with a vibrant community of traders, share insights, and learn from experts, resulting in increased knowledge, better investment strategies, and active engagement in the world of trading.",
   },
   {
     id: 4,
     image_url: hymk,
-    project_name: "Hair Transplant Website",
+    project_name: "Hamyk Entertainment",
     main_heading:
-      "Rediscover your confidence with our transformative hair transplant solutions",
+      "Endless laughter, entertainment and excitement in one app",
     color: "#25282F",
     project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
     challange:
-      "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
+      " people struggled to find a centralized platform for their entertainment needs. They faced the challenge of searching for diverse video content across multiple platforms, dealing with inconvenient advertisements, and lacking a personalized recommendation system, leading to frustration, wasted time, and limited access to enjoyable content without the HAMYK",
     solution:
-      "Hair Transplant Websites provided solutions by offering comprehensive information on treatment options, showcasing before-and-after results, providing details on the procedure, offering insights on recovery and maintenance, facilitating easy access to reputable clinics, and promoting transparency in pricing and consultations. These websites empowered individuals seeking hair transplant solutions with knowledge and resources for informed decision-making.",
+      "People can now enjoy a comprehensive entertainment experience in one place. They have access to a vast library of diverse video content, free from intrusive advertisements. The app offers a personalized recommendation system, ensuring users discover new and engaging content tailored to their preferences, resulting in convenient, enjoyable entertainment at their fingertips.",
   },
 
   {
