@@ -7,11 +7,9 @@ import partymusic from "../Sourcefiles/Images/party-music.png";
 import tour from "../Sourcefiles/Images/tour.png";
 import trip from "../Sourcefiles/Images/trip.png";
 import plshare from "../Sourcefiles/Images/plshare.png";
-import plshare1 from '../Sourcefiles/Images/PLSHARES.png'
 import ustrucking from "../Sourcefiles/Images/ustruckling.png";
 import viewfy from "../Sourcefiles/Images/viewfy.png";
 import hair from "../Sourcefiles/Images/hair.png";
-import talent from "../Sourcefiles/Images/talent.png";
 import talent1 from '../Sourcefiles/Images/Talent1.png'
 import hymk from '../Sourcefiles/Images/hymk.png'
 import TT from '../Sourcefiles/Images/TT.png'

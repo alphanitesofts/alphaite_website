@@ -228,14 +228,6 @@ const Projectinfo = () => {
                             <div className="col-lg-4">
                                 <h1>THE SOLUTION</h1>
 
-
-
-
-                                <p>Width: {windowDimensions.width}px</p>
-                                <p>Height: {windowDimensions.height}px</p>
-
-
-
                                 <p>{project.solution}</p>
                                 {
                                     project.project_link !== "" ?

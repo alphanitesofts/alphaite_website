@@ -1,5 +1,3 @@
-/* @import url(./Components/Sourcefiles/css/style.css); */
-/* @import url(./Components/Sourcefiles/css/style.css.map); */
 
 :root {
   --pretty-modal-modal-container-border-radius: 10px;
@@ -307,4 +305,58 @@
   width: 100%;
   aspect-ratio: 3/2;
   object-fit: contain;
+}
+
+
+/* loaoder on the projects section */
+
+.project-loader {
+background: none repeat scroll 0 0 #fff;
+  border-bottom: 3px solid rgba(19, 19, 19, 0.1) !important;
+  border-left: 3px solid rgba(19, 19, 19, 0.1) !important;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-right: 3px solid #1453F2 !important;
+  border-top: 3px solid rgba(19, 19, 19, 0.1) !important;
+  height: 50px;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 50px;
+  transform: translate(-50%, -50%);
+
+}
+
+.project-loader-color{
+  border-color: #fff;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 1s infinite linear;
+  animation: fa-spin 1s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
 }
