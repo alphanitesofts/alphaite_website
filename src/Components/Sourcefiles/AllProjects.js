@@ -62,7 +62,7 @@ const AllProjects = [
     project_name: "Hair Transplant Website",
     main_heading:
       "Rediscover your confidence with our transformative hair transplant solutions",
-    color: "#FF0300",
+    color: "#25282F",
     project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
     challange:
       "Before the availability of Hair Transplant Websites, individuals seeking hair transplant solutions faced challenges such as limited information on treatment options, difficulty in finding reputable clinics, lack of before-and-after results, uncertainty about the procedure, inadequate knowledge on recovery and maintenance, and a lack of transparency in pricing and consultations.",
