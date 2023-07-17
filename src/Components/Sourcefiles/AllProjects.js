@@ -10,9 +10,9 @@ import plshare from "../Sourcefiles/Images/plshare.png";
 import ustrucking from "../Sourcefiles/Images/ustruckling.png";
 import viewfy from "../Sourcefiles/Images/viewfy.png";
 import hair from "../Sourcefiles/Images/hair.png";
-import talent1 from '../Sourcefiles/Images/Talent1.png'
-import hymk from '../Sourcefiles/Images/hymk.png'
-import TT from '../Sourcefiles/Images/TT.png'
+import talent1 from '../Sourcefiles/Images/Talent1.png';
+import hymk from '../Sourcefiles/Images/hymk.png';
+import TT from '../Sourcefiles/Images/TT.png';
 
 const AllProjects = [
   {
@@ -48,7 +48,7 @@ const AllProjects = [
     main_heading:
       "Effortlessly grow your wealth with our intuitive investment app",
     color: "#B7A366",
-    project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
+    project_link: "https://play.google.com/store/search?q=TRADING%20TUBE&c=apps&hl=en",
     challange:
       "Without the Trading Tube app, people struggled to access real-time market data, make informed investment decisions, and connect with a community of traders. They lacked a user-friendly platform for trading, learning, and sharing insights, resulting in missed opportunities, limited knowledge, and a lack of engagement in the world of trading.",
     solution:
@@ -61,13 +61,12 @@ const AllProjects = [
     main_heading:
       "Endless laughter, entertainment and excitement in one app",
     color: "#25282F",
-    project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=ru",
+    project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=en",
     challange:
       " people struggled to find a centralized platform for their entertainment needs. They faced the challenge of searching for diverse video content across multiple platforms, dealing with inconvenient advertisements, and lacking a personalized recommendation system, leading to frustration, wasted time, and limited access to enjoyable content without the HAMYK",
     solution:
       "People can now enjoy a comprehensive entertainment experience in one place. They have access to a vast library of diverse video content, free from intrusive advertisements. The app offers a personalized recommendation system, ensuring users discover new and engaging content tailored to their preferences, resulting in convenient, enjoyable entertainment at their fingertips.",
   },
-
   {
     id: 5,
     image_url: plshare,
@@ -106,7 +105,6 @@ const AllProjects = [
     solution:
     "My Talent Showcase, a TikTok-like app, solves the problem of limited platforms for users to showcase their unique talents. With its user-friendly interface and extensive reach, it empowers individuals to unleash their creativity, gain recognition, and connect with a global audience. From singing and dancing to comedy sketches and art, this app celebrates diverse talents and brings them into the spotlight.",
   },
-
   {
     id: 8,
     image_url: ebook,
@@ -143,7 +141,6 @@ const AllProjects = [
     solution:
       "Employee Management Systems addressed the challenges by automating record-keeping, streamlining administrative tasks, enabling efficient communication, providing accurate attendance and leave tracking, facilitating performance evaluation, centralizing employee data, and generating insightful reports for informed decision-making and effective workforce management. These systems improved productivity, reduced errors, enhanced communication, and simplified HR processes.",
   },
- 
   {
     id: 11,
     image_url: partymusic,

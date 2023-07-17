@@ -74,7 +74,6 @@ const teammembers = [
     technology:
       "HTML, CSS, Javascript, ES6, Bootstrap5, React, React-Query, RTK-Query, React-Redux, Vite, Php, NodeJS, ExpressJS, MySQL, APIs integration, Github, Postman.",
   },
-
   {
     id: 5,
     image: waleed,
@@ -120,7 +119,7 @@ const teammembers = [
     description:
       "<p>My name is Affan, and I'm a Laravel backend developer with a passion for creating elegant and efficient code. I believe that the key to success in software development is a combination of strong technical skills and excellent communication, and I strive to excel in both areas.</p>",
     technology:
-      "Php(laravel), SQL(database), Postman , Restful APIs design, Debugging skills, Server administration, Github, API Integration, CPanel, MongoDB",
+      "Php(Laravel), SQL(database), Postman , Restful APIs design, Debugging skills, Server administration, Github, API Integration, CPanel, MongoDB",
   },
   {
     id: 8,
