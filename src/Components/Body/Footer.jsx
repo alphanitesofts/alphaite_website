@@ -55,19 +55,19 @@ const Footer = () => {
                 {/* Links */}
                 <ul className="footer-links">
                   <li>
-                    <a href="about.html">About Us</a>
+                    <a>About Us</a>
                   </li>
                   <li>
-                    <a href="service.html">Services</a>
+                    <a>Services</a>
                   </li>
                   <li>
-                    <a href="pricing.html">Pricing</a>
+                    <a>Pricing</a>
                   </li>
                   <li>
-                    <a href="project.html">Recent Projects</a>
+                    <a>Recent Projects</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a>Contact</a>
                   </li>
                 </ul>
               </div>
@@ -77,31 +77,31 @@ const Footer = () => {
                 <h3>Socials</h3>
                 <ul className="list-unstyled footer-links">
                   <li>
-                    <a href="https://www.facebook.com/themefisher">
+                    <a>
                       <i className="fab fa-facebook-f" />
                       Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.twitter.com/themefisher">
+                    <a>
                       <i className="fab fa-twitter" />
                       Twitter
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.pinterest.com/themefisher/">
+                    <a>
                       <i className="fab fa-pinterest-p" />
                       Pinterest
                     </a>
                   </li>
                   <li>
-                    <a href="https://themefisher.com/">
+                    <a href="https://www.linkedin.com/company/alphanite-softs/" target={"_blank"}>
                       <i className="fab fa-linkedin" />
                       linkedin
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA">
+                    <a>
                       <i className="fab fa-youtube" />
                       YouTube
                     </a>

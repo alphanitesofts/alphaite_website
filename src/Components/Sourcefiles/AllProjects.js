@@ -13,6 +13,7 @@ import hair from "../Sourcefiles/Images/hair.png";
 import talent1 from '../Sourcefiles/Images/Talent1.png';
 import hymk from '../Sourcefiles/Images/hymk.png';
 import TT from '../Sourcefiles/Images/TT.png';
+import gym from '../Sourcefiles/Images/gym_managment.png'
 
 const AllProjects = [
   {
@@ -66,6 +67,19 @@ const AllProjects = [
       " people struggled to find a centralized platform for their entertainment needs. They faced the challenge of searching for diverse video content across multiple platforms, dealing with inconvenient advertisements, and lacking a personalized recommendation system, leading to frustration, wasted time, and limited access to enjoyable content without the HAMYK",
     solution:
       "People can now enjoy a comprehensive entertainment experience in one place. They have access to a vast library of diverse video content, free from intrusive advertisements. The app offers a personalized recommendation system, ensuring users discover new and engaging content tailored to their preferences, resulting in convenient, enjoyable entertainment at their fingertips.",
+  },
+  {
+    id: 16,
+    image_url: gym,
+    project_name: "Health and Fitness",
+    main_heading:
+      "Manage your members and fitness inventory with our gym management system",
+    color: "#6A5DE7",
+    project_link: "https://play.google.com/store/apps/details?id=com.hamyk.app&hl=en",
+    challange:
+      "Without a gym management system, fitness facilities face challenges in manual record-keeping, member tracking, and payment processing, leading to inefficiencies and potential data security risks. Scheduling conflicts, lack of data-driven decisions, and communication issues can also impact member satisfaction and retention. A comprehensive management system streamlines operations, enhances member experiences, and improves overall efficiency.",
+    solution:
+      "Implementing a gym management system offers numerous solutions and advantages. It automates record-keeping, member tracking, and payment processing, reducing errors and saving time. Efficient scheduling, data-driven decisions, and streamlined communication enhance member satisfaction and retention. The system also improves inventory management, marketing efforts, and data security, ensuring smooth operations and facilitating business growth.",
   },
   {
     id: 5,
