@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from '../Sourcefiles/Images/Logo.png'
 
 
-// last updated
+// last updated for Alphanites
 const Navbar = () => {
   return (
     <div>
